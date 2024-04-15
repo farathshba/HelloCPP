@@ -1,0 +1,918 @@
+Mon Apr 15 16:06:16 2024: build-wrapper, version 6.52.1 (macosx-x86)
+Mon Apr 15 16:06:16 2024: System name: Darwin Nodename: MAC0426 Release: 23.4.0 Version: Darwin Kernel Version 23.4.0: Fri Mar 15 00:12:49 PDT 2024; root:xnu-10063.101.17~1/RELEASE_ARM64_T6020 Machine: x86_64
+Mon Apr 15 16:06:16 2024: socket path: /tmp/build-wrapper-socket.20GLwx
+Mon Apr 15 16:06:16 2024: dynamic library found: /Applications/Sonar/build-wrappers/10.4.1.build-wrapper-macosx-x86/libinterceptor.dylib
+Mon Apr 15 16:06:16 2024: cwd: </Applications/Sonar/Workspaces/eclipse-workspace/HelloWorldCPP/Debug>
+Mon Apr 15 16:06:16 2024: command executed as: <build-wrapper-macosx-x86 --out-dir build_wrapper_output_directory>
+Mon Apr 15 16:06:16 2024: out-dir absolute path: </Applications/Sonar/Workspaces/eclipse-workspace/HelloWorldCPP/Debug/build_wrapper_output_directory>
+Mon Apr 15 16:06:16 2024: command line received: <make clean all>
+Mon Apr 15 16:06:16 2024: env 0: <TERM_PROGRAM=Apple_Terminal>
+Mon Apr 15 16:06:16 2024: env 1: <SHELL=/bin/zsh>
+Mon Apr 15 16:06:16 2024: env 2: <TERM=xterm-256color>
+Mon Apr 15 16:06:16 2024: env 3: <TMPDIR=/var/folders/zd/hndvk11s30jcj4_yy_6c1qq40000gq/T/>
+Mon Apr 15 16:06:16 2024: env 4: <TERM_PROGRAM_VERSION=453>
+Mon Apr 15 16:06:16 2024: env 5: <TERM_SESSION_ID=B54EF922-63E9-4C88-A5F2-6269D9CADFE0>
+Mon Apr 15 16:06:16 2024: env 6: <USER=basharath.ali>
+Mon Apr 15 16:06:16 2024: env 7: <SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.YVS9rhese7/Listeners>
+Mon Apr 15 16:06:16 2024: env 8: <PATH=/Users/basharath.ali/.jenv/shims:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Applications/CyberArk EPM.app/Contents/Helpers:/usr/local/share/dotnet:~/.dotnet/tools:/usr/local/sbin:/Users/basharath.ali/.dotnet/tools:/Applications/sonar/build-wrapper-macosx-x86/build-wrapper-macosx-x86:/Applications/Sonar/sonar-scanner-5.0.1.3006-macosx\ 2/bin:/Applications/Sonar/build-wrappers/10.4.1.build-wrapper-macosx-x86>
+Mon Apr 15 16:06:16 2024: env 9: <__CFBundleIdentifier=com.apple.Terminal>
+Mon Apr 15 16:06:16 2024: env 10: <PWD=/Applications/Sonar/Workspaces/eclipse-workspace/HelloWorldCPP/Debug>
+Mon Apr 15 16:06:16 2024: env 11: <XPC_FLAGS=0x0>
+Mon Apr 15 16:06:16 2024: env 12: <XPC_SERVICE_NAME=0>
+Mon Apr 15 16:06:16 2024: env 13: <SHLVL=1>
+Mon Apr 15 16:06:16 2024: env 14: <HOME=/Users/basharath.ali>
+Mon Apr 15 16:06:16 2024: env 15: <LOGNAME=basharath.ali>
+Mon Apr 15 16:06:16 2024: env 16: <OLDPWD=/Applications/Sonar/Workspaces/eclipse-workspace/HelloWorldCPP/Debug>
+Mon Apr 15 16:06:16 2024: env 17: <HOMEBREW_PREFIX=/opt/homebrew>
+Mon Apr 15 16:06:16 2024: env 18: <HOMEBREW_CELLAR=/opt/homebrew/Cellar>
+Mon Apr 15 16:06:16 2024: env 19: <HOMEBREW_REPOSITORY=/opt/homebrew>
+Mon Apr 15 16:06:16 2024: env 20: <MANPATH=/opt/homebrew/share/man::>
+Mon Apr 15 16:06:16 2024: env 21: <INFOPATH=/opt/homebrew/share/info:>
+Mon Apr 15 16:06:16 2024: env 22: <ZSH=/Users/basharath.ali/.oh-my-zsh>
+Mon Apr 15 16:06:16 2024: env 23: <PAGER=less>
+Mon Apr 15 16:06:16 2024: env 24: <LESS=-R>
+Mon Apr 15 16:06:16 2024: env 25: <LSCOLORS=Gxfxcxdxbxegedabagacad>
+Mon Apr 15 16:06:16 2024: env 26: <LS_COLORS=di=1;36:ln=35:so=32:pi=33:ex=31:bd=34;46:cd=34;43:su=30;41:sg=30;46:tw=30;42:ow=30;43>
+Mon Apr 15 16:06:16 2024: env 27: <BRANCH_NAME=>
+Mon Apr 15 16:06:16 2024: env 28: <PROJECT_KEY=Debug>
+Mon Apr 15 16:06:16 2024: env 29: <SQ890_PATH=/Applications/Sonar/SonarQube-EE/sonarqube-8.9.10.61524/bin/macosx-universal-64>
+Mon Apr 15 16:06:16 2024: env 30: <SQ890_TOKEN=sqa_*>
+Mon Apr 15 16:06:16 2024: env 31: <SQ890_HOST_URL=http://localhost:8900>
+Mon Apr 15 16:06:16 2024: env 32: <SQ990_PATH=/Applications/Sonar/SonarQube-EE/sonarqube-9.9.3.79811/bin/macosx-universal-64>
+Mon Apr 15 16:06:16 2024: env 33: <SQ990_TOKEN=sqa_*>
+Mon Apr 15 16:06:16 2024: env 34: <SQ990_HOST_URL=http://localhost:9900>
+Mon Apr 15 16:06:16 2024: env 35: <SQ990DC_PATH=/Applications/Sonar/SonarQube-DCE/sonarqube-9.9.4.87374/bin/macosx-universal-64>
+Mon Apr 15 16:06:16 2024: env 36: <SQ990DC_TOKEN=sqa_*>
+Mon Apr 15 16:06:16 2024: env 37: <SQ990DC_HOST_URL=http://localhost:9901>
+Mon Apr 15 16:06:16 2024: env 38: <SQ1020_PATH=/Applications/Sonar/SonarQube-EE/sonarqube-10.2.1.78527/bin/macosx-universal-64>
+Mon Apr 15 16:06:16 2024: env 39: <SQ1020_TOKEN=sqa_*>
+Mon Apr 15 16:06:16 2024: env 40: <SQ1020_HOST_URL=http://localhost:10200>
+Mon Apr 15 16:06:16 2024: env 41: <SQ1030_PATH=/Applications/Sonar/SonarQube-EE/sonarqube-10.3.0.82913/bin/macosx-universal-64>
+Mon Apr 15 16:06:16 2024: env 42: <SQ1030_TOKEN=sqa_*>
+Mon Apr 15 16:06:16 2024: env 43: <SQ1030_HOST_URL=http://localhost:10200>
+Mon Apr 15 16:06:16 2024: env 44: <SQ1040_PATH=/Applications/Sonar/SonarQube-EE/sonarqube-10.4.0.87286/bin/macosx-universal-64>
+Mon Apr 15 16:06:16 2024: env 45: <SQ1040_TOKEN=sqa_*>
+Mon Apr 15 16:06:16 2024: env 46: <SQ1040_HOST_URL=http://localhost:10400>
+Mon Apr 15 16:06:16 2024: env 47: <SQ1041_PATH=/Applications/Sonar/SonarQube-EE/sonarqube-10.4.1.88267/bin/macosx-universal-64>
+Mon Apr 15 16:06:16 2024: env 48: <SQ1041_TOKEN=sqa_*>
+Mon Apr 15 16:06:16 2024: env 49: <SQ1041_HOST_URL=http://localhost:10401>
+Mon Apr 15 16:06:16 2024: env 50: <SONAR_SCANNER_PATH=/Users/basharath.ali/Documents/Dev_Workspace/Scanners/sonar-scanner-6.2.0.85879-net/sonar-scanner-5.0.1.3006/bin/sonar-scanner>
+Mon Apr 15 16:06:16 2024: env 51: <SONAR_SCANNER_DLL=/Users/basharath.ali/Documents/Dev_Workspace/Scanners/sonar-scanner-6.2.0.85879-net/SonarScanner.MSBuild.dll>
+Mon Apr 15 16:06:16 2024: env 52: <CURRENT_PATH=/Applications/Sonar/Workspaces/eclipse-workspace/HelloWorldCPP/Debug>
+Mon Apr 15 16:06:16 2024: env 53: <CURRENT_CSPROJ=Debug.csproj>
+Mon Apr 15 16:06:16 2024: env 54: <JENV_SHELL=zsh>
+Mon Apr 15 16:06:16 2024: env 55: <JENV_LOADED=1>
+Mon Apr 15 16:06:16 2024: env 56: <LC_CTYPE=UTF-8>
+Mon Apr 15 16:06:16 2024: env 57: <_=/Applications/Sonar/build-wrappers/10.4.1.build-wrapper-macosx-x86/build-wrapper-macosx-x86>
+Mon Apr 15 16:06:16 2024: executing: <make clean all>
+Mon Apr 15 16:06:16 2024: initializing json file
+Mon Apr 15 16:06:20 2024: process created with pid: 55918
+Mon Apr 15 16:06:20 2024: parent pid: 55917
+Mon Apr 15 16:06:20 2024: working directory: </Applications/Sonar/Workspaces/eclipse-workspace/HelloWorldCPP/Debug>
+Mon Apr 15 16:06:20 2024: executable: </Applications/Sonar/build-wrappers/10.4.1.build-wrapper-macosx-x86/build-wrapper-macosx-x86>
+Mon Apr 15 16:06:20 2024: argv[0]: <build-wrapper-macosx-x86>
+Mon Apr 15 16:06:20 2024: argv[1]: <-c>
+Mon Apr 15 16:06:20 2024: argv[2]: <>
+Mon Apr 15 16:06:20 2024: argv[3]: <make>
+Mon Apr 15 16:06:20 2024: argv[4]: <clean>
+Mon Apr 15 16:06:20 2024: argv[5]: <all>
+Mon Apr 15 16:06:20 2024: skipping process with pid: 55918
+Mon Apr 15 16:06:21 2024: process created with pid: 55930
+Mon Apr 15 16:06:21 2024: parent pid: 55918
+Mon Apr 15 16:06:21 2024: working directory: </Applications/Sonar/Workspaces/eclipse-workspace/HelloWorldCPP/Debug>
+Mon Apr 15 16:06:21 2024: executable: </private/tmp/sonarsource-build-wrapper-cache-503/usr/bin/make>
+Mon Apr 15 16:06:21 2024: argv[0]: <make>
+Mon Apr 15 16:06:21 2024: argv[1]: <clean>
+Mon Apr 15 16:06:21 2024: argv[2]: <all>
+Mon Apr 15 16:06:21 2024: skipping process with pid: 55930
+Mon Apr 15 16:06:22 2024: process created with pid: 55930
+Mon Apr 15 16:06:22 2024: parent pid: 55918
+Mon Apr 15 16:06:22 2024: working directory: </Applications/Sonar/Workspaces/eclipse-workspace/HelloWorldCPP/Debug>
+Mon Apr 15 16:06:22 2024: executable: </Library/Developer/CommandLineTools/usr/bin/make>
+Mon Apr 15 16:06:22 2024: argv[0]: </Library/Developer/CommandLineTools/usr/bin/make>
+Mon Apr 15 16:06:22 2024: argv[1]: <clean>
+Mon Apr 15 16:06:22 2024: argv[2]: <all>
+Mon Apr 15 16:06:22 2024: skipping process with pid: 55930
+Mon Apr 15 16:06:22 2024: process created with pid: 55941
+Mon Apr 15 16:06:22 2024: parent pid: 55930
+Mon Apr 15 16:06:22 2024: working directory: </Applications/Sonar/Workspaces/eclipse-workspace/HelloWorldCPP/Debug>
+Mon Apr 15 16:06:22 2024: executable: </private/tmp/sonarsource-build-wrapper-cache-503/bin/rm>
+Mon Apr 15 16:06:22 2024: argv[0]: <rm>
+Mon Apr 15 16:06:22 2024: argv[1]: <-rf>
+Mon Apr 15 16:06:22 2024: argv[2]: <./src/HelloWorldCPP.d>
+Mon Apr 15 16:06:22 2024: argv[3]: <./src/HelloWorldCPP.o>
+Mon Apr 15 16:06:22 2024: skipping process with pid: 55941
+Mon Apr 15 16:06:22 2024: process created with pid: 55943
+Mon Apr 15 16:06:22 2024: parent pid: 55930
+Mon Apr 15 16:06:22 2024: working directory: </Applications/Sonar/Workspaces/eclipse-workspace/HelloWorldCPP/Debug>
+Mon Apr 15 16:06:22 2024: executable: </private/tmp/sonarsource-build-wrapper-cache-503/bin/rm>
+Mon Apr 15 16:06:22 2024: argv[0]: <rm>
+Mon Apr 15 16:06:22 2024: argv[1]: <-rf>
+Mon Apr 15 16:06:22 2024: argv[2]: <HelloWorldCPP>
+Mon Apr 15 16:06:22 2024: skipping process with pid: 55943
+Mon Apr 15 16:06:23 2024: process created with pid: 55944
+Mon Apr 15 16:06:23 2024: parent pid: 55930
+Mon Apr 15 16:06:23 2024: working directory: </Applications/Sonar/Workspaces/eclipse-workspace/HelloWorldCPP/Debug>
+Mon Apr 15 16:06:23 2024: executable: </private/tmp/sonarsource-build-wrapper-cache-503/bin/echo>
+Mon Apr 15 16:06:23 2024: argv[0]: <echo>
+Mon Apr 15 16:06:23 2024: argv[1]: < >
+Mon Apr 15 16:06:23 2024: skipping process with pid: 55944
+Mon Apr 15 16:06:23 2024: process created with pid: 55947
+Mon Apr 15 16:06:23 2024: parent pid: 55930
+Mon Apr 15 16:06:23 2024: working directory: </Applications/Sonar/Workspaces/eclipse-workspace/HelloWorldCPP/Debug>
+Mon Apr 15 16:06:23 2024: executable: </private/tmp/sonarsource-build-wrapper-cache-503/bin/echo>
+Mon Apr 15 16:06:23 2024: argv[0]: <echo>
+Mon Apr 15 16:06:23 2024: argv[1]: <Building file: ../src/HelloWorldCPP.cpp>
+Mon Apr 15 16:06:23 2024: skipping process with pid: 55947
+Mon Apr 15 16:06:23 2024: process created with pid: 55948
+Mon Apr 15 16:06:23 2024: parent pid: 55930
+Mon Apr 15 16:06:23 2024: working directory: </Applications/Sonar/Workspaces/eclipse-workspace/HelloWorldCPP/Debug>
+Mon Apr 15 16:06:23 2024: executable: </private/tmp/sonarsource-build-wrapper-cache-503/bin/echo>
+Mon Apr 15 16:06:23 2024: argv[0]: <echo>
+Mon Apr 15 16:06:23 2024: argv[1]: <Invoking: Cross G++ Compiler>
+Mon Apr 15 16:06:23 2024: skipping process with pid: 55948
+Mon Apr 15 16:06:24 2024: process created with pid: 55949
+Mon Apr 15 16:06:24 2024: parent pid: 55930
+Mon Apr 15 16:06:24 2024: working directory: </Applications/Sonar/Workspaces/eclipse-workspace/HelloWorldCPP/Debug>
+Mon Apr 15 16:06:24 2024: executable: </private/tmp/sonarsource-build-wrapper-cache-503/bin/sh>
+Mon Apr 15 16:06:24 2024: argv[0]: </bin/sh>
+Mon Apr 15 16:06:24 2024: argv[1]: <-c>
+Mon Apr 15 16:06:24 2024: argv[2]: <g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/HelloWorldCPP.d" -MT"src/HelloWorldCPP.o" -o "src/HelloWorldCPP.o" "../src/HelloWorldCPP.cpp">
+Mon Apr 15 16:06:24 2024: skipping process with pid: 55949
+Mon Apr 15 16:06:25 2024: process created with pid: 55949
+Mon Apr 15 16:06:25 2024: parent pid: 55930
+Mon Apr 15 16:06:25 2024: working directory: </Applications/Sonar/Workspaces/eclipse-workspace/HelloWorldCPP/Debug>
+Mon Apr 15 16:06:25 2024: executable: </private/tmp/sonarsource-build-wrapper-cache-503/bin/bash>
+Mon Apr 15 16:06:25 2024: argv[0]: </bin/sh>
+Mon Apr 15 16:06:25 2024: argv[1]: <-c>
+Mon Apr 15 16:06:25 2024: argv[2]: <g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/HelloWorldCPP.d" -MT"src/HelloWorldCPP.o" -o "src/HelloWorldCPP.o" "../src/HelloWorldCPP.cpp">
+Mon Apr 15 16:06:25 2024: skipping process with pid: 55949
+Mon Apr 15 16:06:25 2024: process created with pid: 55949
+Mon Apr 15 16:06:25 2024: parent pid: 55930
+Mon Apr 15 16:06:25 2024: working directory: </Applications/Sonar/Workspaces/eclipse-workspace/HelloWorldCPP/Debug>
+Mon Apr 15 16:06:25 2024: executable: </private/tmp/sonarsource-build-wrapper-cache-503/usr/bin/g++>
+Mon Apr 15 16:06:25 2024: argv[0]: <g++>
+Mon Apr 15 16:06:25 2024: argv[1]: <-O0>
+Mon Apr 15 16:06:25 2024: argv[2]: <-g3>
+Mon Apr 15 16:06:25 2024: argv[3]: <-Wall>
+Mon Apr 15 16:06:25 2024: argv[4]: <-c>
+Mon Apr 15 16:06:25 2024: argv[5]: <-fmessage-length=0>
+Mon Apr 15 16:06:25 2024: argv[6]: <-MMD>
+Mon Apr 15 16:06:25 2024: argv[7]: <-MP>
+Mon Apr 15 16:06:25 2024: argv[8]: <-MFsrc/HelloWorldCPP.d>
+Mon Apr 15 16:06:25 2024: argv[9]: <-MTsrc/HelloWorldCPP.o>
+Mon Apr 15 16:06:25 2024: argv[10]: <-o>
+Mon Apr 15 16:06:25 2024: argv[11]: <src/HelloWorldCPP.o>
+Mon Apr 15 16:06:25 2024: argv[12]: <../src/HelloWorldCPP.cpp>
+Mon Apr 15 16:06:25 2024: envp[0]: <SQ_WRAPPER_SOCKET=/tmp/build-wrapper-socket.20GLwx>
+Mon Apr 15 16:06:25 2024: envp[1]: <SQ_WRAPPER_LIBRARY=/Applications/Sonar/build-wrappers/10.4.1.build-wrapper-macosx-x86/libinterceptor.dylib>
+Mon Apr 15 16:06:25 2024: envp[2]: <SQ_BUILD_WRAPPER_BIN=/Applications/Sonar/build-wrappers/10.4.1.build-wrapper-macosx-x86/build-wrapper-macosx-x86>
+Mon Apr 15 16:06:25 2024: envp[3]: <SQ1030_HOST_URL=http://localhost:10200>
+Mon Apr 15 16:06:25 2024: envp[4]: <MANPATH=/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/share/man:/Library/Developer/CommandLineTools/usr/share/man:/Library/Developer/CommandLineTools/Toolchains/XcodeDefault.xctoolchain/usr/share/man:/opt/homebrew/share/man::>
+Mon Apr 15 16:06:25 2024: envp[5]: <TERM_PROGRAM=Apple_Terminal>
+Mon Apr 15 16:06:25 2024: envp[6]: <SQ1020_TOKEN=sqa_*>
+Mon Apr 15 16:06:25 2024: envp[7]: <TERM=xterm-256color>
+Mon Apr 15 16:06:25 2024: envp[8]: <SHELL=/bin/zsh>
+Mon Apr 15 16:06:25 2024: envp[9]: <CURRENT_PATH=/Applications/Sonar/Workspaces/eclipse-workspace/HelloWorldCPP/Debug>
+Mon Apr 15 16:06:25 2024: envp[10]: <MAKEFLAGS=>
+Mon Apr 15 16:06:25 2024: envp[11]: <HOMEBREW_REPOSITORY=/opt/homebrew>
+Mon Apr 15 16:06:25 2024: envp[12]: <TMPDIR=/var/folders/zd/hndvk11s30jcj4_yy_6c1qq40000gq/T/>
+Mon Apr 15 16:06:25 2024: envp[13]: <SQ990_PATH=/Applications/Sonar/SonarQube-EE/sonarqube-9.9.3.79811/bin/macosx-universal-64>
+Mon Apr 15 16:06:25 2024: envp[14]: <SQ990_HOST_URL=http://localhost:9900>
+Mon Apr 15 16:06:25 2024: envp[15]: <TERM_PROGRAM_VERSION=453>
+Mon Apr 15 16:06:25 2024: envp[16]: <BRANCH_NAME=>
+Mon Apr 15 16:06:25 2024: envp[17]: <SQ1041_TOKEN=sqa_*>
+Mon Apr 15 16:06:25 2024: envp[18]: <CURRENT_CSPROJ=Debug.csproj>
+Mon Apr 15 16:06:25 2024: envp[19]: <TERM_SESSION_ID=B54EF922-63E9-4C88-A5F2-6269D9CADFE0>
+Mon Apr 15 16:06:25 2024: envp[20]: <ZSH=/Users/basharath.ali/.oh-my-zsh>
+Mon Apr 15 16:06:25 2024: envp[21]: <SQ1030_PATH=/Applications/Sonar/SonarQube-EE/sonarqube-10.3.0.82913/bin/macosx-universal-64>
+Mon Apr 15 16:06:25 2024: envp[22]: <USER=basharath.ali>
+Mon Apr 15 16:06:25 2024: envp[23]: <LS_COLORS=di=1;36:ln=35:so=32:pi=33:ex=31:bd=34;46:cd=34;43:su=30;41:sg=30;46:tw=30;42:ow=30;43>
+Mon Apr 15 16:06:25 2024: envp[24]: <SQ890_PATH=/Applications/Sonar/SonarQube-EE/sonarqube-8.9.10.61524/bin/macosx-universal-64>
+Mon Apr 15 16:06:25 2024: envp[25]: <SQ890_TOKEN=sqa_*>
+Mon Apr 15 16:06:25 2024: envp[26]: <SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.YVS9rhese7/Listeners>
+Mon Apr 15 16:06:25 2024: envp[27]: <__CF_USER_TEXT_ENCODING=0x1F7:0x0:0x64>
+Mon Apr 15 16:06:25 2024: envp[28]: <SONAR_SCANNER_DLL=/Users/basharath.ali/Documents/Dev_Workspace/Scanners/sonar-scanner-6.2.0.85879-net/SonarScanner.MSBuild.dll>
+Mon Apr 15 16:06:25 2024: envp[29]: <PROJECT_KEY=Debug>
+Mon Apr 15 16:06:25 2024: envp[30]: <MAKELEVEL=1>
+Mon Apr 15 16:06:25 2024: envp[31]: <PAGER=less>
+Mon Apr 15 16:06:25 2024: envp[32]: <SQ1041_HOST_URL=http://localhost:10401>
+Mon Apr 15 16:06:25 2024: envp[33]: <MFLAGS=>
+Mon Apr 15 16:06:25 2024: envp[34]: <LSCOLORS=Gxfxcxdxbxegedabagacad>
+Mon Apr 15 16:06:25 2024: envp[35]: <SONAR_SCANNER_PATH=/Users/basharath.ali/Documents/Dev_Workspace/Scanners/sonar-scanner-6.2.0.85879-net/sonar-scanner-5.0.1.3006/bin/sonar-scanner>
+Mon Apr 15 16:06:25 2024: envp[36]: <SQ1020_HOST_URL=http://localhost:10200>
+Mon Apr 15 16:06:25 2024: envp[37]: <SQ990_TOKEN=sqa_*>
+Mon Apr 15 16:06:25 2024: envp[38]: <PATH=/Users/basharath.ali/.jenv/shims:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Applications/CyberArk EPM.app/Contents/Helpers:/usr/local/share/dotnet:~/.dotnet/tools:/usr/local/sbin:/Users/basharath.ali/.dotnet/tools:/Applications/sonar/build-wrapper-macosx-x86/build-wrapper-macosx-x86:/Applications/Sonar/sonar-scanner-5.0.1.3006-macosx\ 2/bin:/Applications/Sonar/build-wrappers/10.4.1.build-wrapper-macosx-x86>
+Mon Apr 15 16:06:25 2024: envp[39]: <_=/usr/bin/g++>
+Mon Apr 15 16:06:25 2024: envp[40]: <__CFBundleIdentifier=com.apple.Terminal>
+Mon Apr 15 16:06:25 2024: envp[41]: <JENV_LOADED=1>
+Mon Apr 15 16:06:25 2024: envp[42]: <PWD=/Applications/Sonar/Workspaces/eclipse-workspace/HelloWorldCPP/Debug>
+Mon Apr 15 16:06:25 2024: envp[43]: <SQ1040_TOKEN=sqa_*>
+Mon Apr 15 16:06:25 2024: envp[44]: <SQ890_HOST_URL=http://localhost:8900>
+Mon Apr 15 16:06:25 2024: envp[45]: <XPC_FLAGS=0x0>
+Mon Apr 15 16:06:25 2024: envp[46]: <SQ990DC_PATH=/Applications/Sonar/SonarQube-DCE/sonarqube-9.9.4.87374/bin/macosx-universal-64>
+Mon Apr 15 16:06:25 2024: envp[47]: <XPC_SERVICE_NAME=0>
+Mon Apr 15 16:06:25 2024: envp[48]: <SQ990DC_HOST_URL=http://localhost:9901>
+Mon Apr 15 16:06:25 2024: envp[49]: <SHLVL=2>
+Mon Apr 15 16:06:25 2024: envp[50]: <HOME=/Users/basharath.ali>
+Mon Apr 15 16:06:25 2024: envp[51]: <HOMEBREW_PREFIX=/opt/homebrew>
+Mon Apr 15 16:06:25 2024: envp[52]: <SQ1040_HOST_URL=http://localhost:10400>
+Mon Apr 15 16:06:25 2024: envp[53]: <SQ990DC_TOKEN=sqa_*>
+Mon Apr 15 16:06:25 2024: envp[54]: <LOGNAME=basharath.ali>
+Mon Apr 15 16:06:25 2024: envp[55]: <LESS=-R>
+Mon Apr 15 16:06:25 2024: envp[56]: <SQ1030_TOKEN=sqa_*>
+Mon Apr 15 16:06:25 2024: envp[57]: <JENV_SHELL=zsh>
+Mon Apr 15 16:06:25 2024: envp[58]: <LC_CTYPE=UTF-8>
+Mon Apr 15 16:06:25 2024: envp[59]: <SQ1041_PATH=/Applications/Sonar/SonarQube-EE/sonarqube-10.4.1.88267/bin/macosx-universal-64>
+Mon Apr 15 16:06:25 2024: envp[60]: <SQ1020_PATH=/Applications/Sonar/SonarQube-EE/sonarqube-10.2.1.78527/bin/macosx-universal-64>
+Mon Apr 15 16:06:25 2024: envp[61]: <HOMEBREW_CELLAR=/opt/homebrew/Cellar>
+Mon Apr 15 16:06:25 2024: envp[62]: <INFOPATH=/opt/homebrew/share/info:>
+Mon Apr 15 16:06:25 2024: envp[63]: <SQ1040_PATH=/Applications/Sonar/SonarQube-EE/sonarqube-10.4.0.87286/bin/macosx-universal-64>
+Mon Apr 15 16:06:25 2024: envp[64]: <DYLD_INSERT_LIBRARIES=>
+Mon Apr 15 16:06:25 2024: process created with pid: 55949
+Mon Apr 15 16:06:25 2024: parent pid: 55930
+Mon Apr 15 16:06:25 2024: working directory: </Applications/Sonar/Workspaces/eclipse-workspace/HelloWorldCPP/Debug>
+Mon Apr 15 16:06:25 2024: executable: </Library/Developer/CommandLineTools/usr/bin/gcc>
+Mon Apr 15 16:06:25 2024: argv[0]: </Library/Developer/CommandLineTools/usr/bin/g++>
+Mon Apr 15 16:06:25 2024: argv[1]: <-O0>
+Mon Apr 15 16:06:25 2024: argv[2]: <-g3>
+Mon Apr 15 16:06:25 2024: argv[3]: <-Wall>
+Mon Apr 15 16:06:25 2024: argv[4]: <-c>
+Mon Apr 15 16:06:25 2024: argv[5]: <-fmessage-length=0>
+Mon Apr 15 16:06:25 2024: argv[6]: <-MMD>
+Mon Apr 15 16:06:25 2024: argv[7]: <-MP>
+Mon Apr 15 16:06:25 2024: argv[8]: <-MFsrc/HelloWorldCPP.d>
+Mon Apr 15 16:06:25 2024: argv[9]: <-MTsrc/HelloWorldCPP.o>
+Mon Apr 15 16:06:25 2024: argv[10]: <-o>
+Mon Apr 15 16:06:25 2024: argv[11]: <src/HelloWorldCPP.o>
+Mon Apr 15 16:06:25 2024: argv[12]: <../src/HelloWorldCPP.cpp>
+Mon Apr 15 16:06:25 2024: envp[0]: <SQ_WRAPPER_SOCKET=/tmp/build-wrapper-socket.20GLwx>
+Mon Apr 15 16:06:25 2024: envp[1]: <SQ_WRAPPER_LIBRARY=/Applications/Sonar/build-wrappers/10.4.1.build-wrapper-macosx-x86/libinterceptor.dylib>
+Mon Apr 15 16:06:25 2024: envp[2]: <SQ_BUILD_WRAPPER_BIN=/Applications/Sonar/build-wrappers/10.4.1.build-wrapper-macosx-x86/build-wrapper-macosx-x86>
+Mon Apr 15 16:06:25 2024: envp[3]: <SQ1030_HOST_URL=http://localhost:10200>
+Mon Apr 15 16:06:25 2024: envp[4]: <MANPATH=/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/share/man:/Library/Developer/CommandLineTools/usr/share/man:/Library/Developer/CommandLineTools/Toolchains/XcodeDefault.xctoolchain/usr/share/man:/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/share/man:/Library/Developer/CommandLineTools/usr/share/man:/Library/Developer/CommandLineTools/Toolchains/XcodeDefault.xctoolchain/usr/share/man:/opt/homebrew/share/man::>
+Mon Apr 15 16:06:25 2024: envp[5]: <TERM_PROGRAM=Apple_Terminal>
+Mon Apr 15 16:06:25 2024: envp[6]: <SQ1020_TOKEN=sqa_*>
+Mon Apr 15 16:06:25 2024: envp[7]: <TERM=xterm-256color>
+Mon Apr 15 16:06:25 2024: envp[8]: <SHELL=/bin/zsh>
+Mon Apr 15 16:06:25 2024: envp[9]: <CURRENT_PATH=/Applications/Sonar/Workspaces/eclipse-workspace/HelloWorldCPP/Debug>
+Mon Apr 15 16:06:25 2024: envp[10]: <MAKEFLAGS=>
+Mon Apr 15 16:06:25 2024: envp[11]: <HOMEBREW_REPOSITORY=/opt/homebrew>
+Mon Apr 15 16:06:25 2024: envp[12]: <TMPDIR=/var/folders/zd/hndvk11s30jcj4_yy_6c1qq40000gq/T/>
+Mon Apr 15 16:06:25 2024: envp[13]: <SQ990_PATH=/Applications/Sonar/SonarQube-EE/sonarqube-9.9.3.79811/bin/macosx-universal-64>
+Mon Apr 15 16:06:25 2024: envp[14]: <SQ990_HOST_URL=http://localhost:9900>
+Mon Apr 15 16:06:25 2024: envp[15]: <TERM_PROGRAM_VERSION=453>
+Mon Apr 15 16:06:25 2024: envp[16]: <BRANCH_NAME=>
+Mon Apr 15 16:06:25 2024: envp[17]: <SQ1041_TOKEN=sqa_*>
+Mon Apr 15 16:06:25 2024: envp[18]: <CURRENT_CSPROJ=Debug.csproj>
+Mon Apr 15 16:06:25 2024: envp[19]: <TERM_SESSION_ID=B54EF922-63E9-4C88-A5F2-6269D9CADFE0>
+Mon Apr 15 16:06:25 2024: envp[20]: <ZSH=/Users/basharath.ali/.oh-my-zsh>
+Mon Apr 15 16:06:25 2024: envp[21]: <SQ1030_PATH=/Applications/Sonar/SonarQube-EE/sonarqube-10.3.0.82913/bin/macosx-universal-64>
+Mon Apr 15 16:06:25 2024: envp[22]: <USER=basharath.ali>
+Mon Apr 15 16:06:25 2024: envp[23]: <LS_COLORS=di=1;36:ln=35:so=32:pi=33:ex=31:bd=34;46:cd=34;43:su=30;41:sg=30;46:tw=30;42:ow=30;43>
+Mon Apr 15 16:06:25 2024: envp[24]: <SQ890_PATH=/Applications/Sonar/SonarQube-EE/sonarqube-8.9.10.61524/bin/macosx-universal-64>
+Mon Apr 15 16:06:25 2024: envp[25]: <SQ890_TOKEN=sqa_*>
+Mon Apr 15 16:06:25 2024: envp[26]: <SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.YVS9rhese7/Listeners>
+Mon Apr 15 16:06:25 2024: envp[27]: <__CF_USER_TEXT_ENCODING=0x1F7:0x0:0x64>
+Mon Apr 15 16:06:25 2024: envp[28]: <SONAR_SCANNER_DLL=/Users/basharath.ali/Documents/Dev_Workspace/Scanners/sonar-scanner-6.2.0.85879-net/SonarScanner.MSBuild.dll>
+Mon Apr 15 16:06:25 2024: envp[29]: <PROJECT_KEY=Debug>
+Mon Apr 15 16:06:25 2024: envp[30]: <MAKELEVEL=1>
+Mon Apr 15 16:06:25 2024: envp[31]: <PAGER=less>
+Mon Apr 15 16:06:25 2024: envp[32]: <SQ1041_HOST_URL=http://localhost:10401>
+Mon Apr 15 16:06:25 2024: envp[33]: <MFLAGS=>
+Mon Apr 15 16:06:25 2024: envp[34]: <LSCOLORS=Gxfxcxdxbxegedabagacad>
+Mon Apr 15 16:06:25 2024: envp[35]: <SONAR_SCANNER_PATH=/Users/basharath.ali/Documents/Dev_Workspace/Scanners/sonar-scanner-6.2.0.85879-net/sonar-scanner-5.0.1.3006/bin/sonar-scanner>
+Mon Apr 15 16:06:25 2024: envp[36]: <SQ1020_HOST_URL=http://localhost:10200>
+Mon Apr 15 16:06:25 2024: envp[37]: <SQ990_TOKEN=sqa_*>
+Mon Apr 15 16:06:25 2024: envp[38]: <PATH=/Users/basharath.ali/.jenv/shims:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Applications/CyberArk EPM.app/Contents/Helpers:/usr/local/share/dotnet:~/.dotnet/tools:/usr/local/sbin:/Users/basharath.ali/.dotnet/tools:/Applications/sonar/build-wrapper-macosx-x86/build-wrapper-macosx-x86:/Applications/Sonar/sonar-scanner-5.0.1.3006-macosx\ 2/bin:/Applications/Sonar/build-wrappers/10.4.1.build-wrapper-macosx-x86>
+Mon Apr 15 16:06:25 2024: envp[39]: <_=/usr/bin/g++>
+Mon Apr 15 16:06:25 2024: envp[40]: <__CFBundleIdentifier=com.apple.Terminal>
+Mon Apr 15 16:06:25 2024: envp[41]: <JENV_LOADED=1>
+Mon Apr 15 16:06:25 2024: envp[42]: <PWD=/Applications/Sonar/Workspaces/eclipse-workspace/HelloWorldCPP/Debug>
+Mon Apr 15 16:06:25 2024: envp[43]: <SQ1040_TOKEN=sqa_*>
+Mon Apr 15 16:06:25 2024: envp[44]: <SQ890_HOST_URL=http://localhost:8900>
+Mon Apr 15 16:06:25 2024: envp[45]: <XPC_FLAGS=0x0>
+Mon Apr 15 16:06:25 2024: envp[46]: <SQ990DC_PATH=/Applications/Sonar/SonarQube-DCE/sonarqube-9.9.4.87374/bin/macosx-universal-64>
+Mon Apr 15 16:06:25 2024: envp[47]: <XPC_SERVICE_NAME=0>
+Mon Apr 15 16:06:25 2024: envp[48]: <SQ990DC_HOST_URL=http://localhost:9901>
+Mon Apr 15 16:06:25 2024: envp[49]: <SHLVL=2>
+Mon Apr 15 16:06:25 2024: envp[50]: <HOME=/Users/basharath.ali>
+Mon Apr 15 16:06:25 2024: envp[51]: <HOMEBREW_PREFIX=/opt/homebrew>
+Mon Apr 15 16:06:25 2024: envp[52]: <SQ1040_HOST_URL=http://localhost:10400>
+Mon Apr 15 16:06:25 2024: envp[53]: <SQ990DC_TOKEN=sqa_*>
+Mon Apr 15 16:06:25 2024: envp[54]: <LOGNAME=basharath.ali>
+Mon Apr 15 16:06:25 2024: envp[55]: <LESS=-R>
+Mon Apr 15 16:06:25 2024: envp[56]: <SQ1030_TOKEN=sqa_*>
+Mon Apr 15 16:06:25 2024: envp[57]: <JENV_SHELL=zsh>
+Mon Apr 15 16:06:25 2024: envp[58]: <LC_CTYPE=UTF-8>
+Mon Apr 15 16:06:25 2024: envp[59]: <SQ1041_PATH=/Applications/Sonar/SonarQube-EE/sonarqube-10.4.1.88267/bin/macosx-universal-64>
+Mon Apr 15 16:06:25 2024: envp[60]: <SQ1020_PATH=/Applications/Sonar/SonarQube-EE/sonarqube-10.2.1.78527/bin/macosx-universal-64>
+Mon Apr 15 16:06:25 2024: envp[61]: <HOMEBREW_CELLAR=/opt/homebrew/Cellar>
+Mon Apr 15 16:06:25 2024: envp[62]: <INFOPATH=/opt/homebrew/share/info:>
+Mon Apr 15 16:06:25 2024: envp[63]: <SQ1040_PATH=/Applications/Sonar/SonarQube-EE/sonarqube-10.4.0.87286/bin/macosx-universal-64>
+Mon Apr 15 16:06:25 2024: envp[64]: <SDKROOT=/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk>
+Mon Apr 15 16:06:25 2024: envp[65]: <CPATH=/usr/local/include>
+Mon Apr 15 16:06:25 2024: envp[66]: <LIBRARY_PATH=/usr/local/lib>
+Mon Apr 15 16:06:25 2024: envp[67]: <DYLD_INSERT_LIBRARIES=>
+Mon Apr 15 16:06:26 2024: process created with pid: 55949
+Mon Apr 15 16:06:26 2024: parent pid: 55930
+Mon Apr 15 16:06:26 2024: working directory: </Applications/Sonar/Workspaces/eclipse-workspace/HelloWorldCPP/Debug>
+Mon Apr 15 16:06:26 2024: executable: </private/tmp/sonarsource-build-wrapper-cache-503/usr/bin/xcrun>
+Mon Apr 15 16:06:26 2024: argv[0]: </usr/bin/xcrun>
+Mon Apr 15 16:06:26 2024: argv[1]: <clang++>
+Mon Apr 15 16:06:26 2024: argv[2]: <-O0>
+Mon Apr 15 16:06:26 2024: argv[3]: <-g3>
+Mon Apr 15 16:06:26 2024: argv[4]: <-Wall>
+Mon Apr 15 16:06:26 2024: argv[5]: <-c>
+Mon Apr 15 16:06:26 2024: argv[6]: <-fmessage-length=0>
+Mon Apr 15 16:06:26 2024: argv[7]: <-MMD>
+Mon Apr 15 16:06:26 2024: argv[8]: <-MP>
+Mon Apr 15 16:06:26 2024: argv[9]: <-MFsrc/HelloWorldCPP.d>
+Mon Apr 15 16:06:26 2024: argv[10]: <-MTsrc/HelloWorldCPP.o>
+Mon Apr 15 16:06:26 2024: argv[11]: <-o>
+Mon Apr 15 16:06:26 2024: argv[12]: <src/HelloWorldCPP.o>
+Mon Apr 15 16:06:26 2024: argv[13]: <../src/HelloWorldCPP.cpp>
+Mon Apr 15 16:06:26 2024: skipping process with pid: 55949
+Mon Apr 15 16:06:33 2024: process created with pid: 55949
+Mon Apr 15 16:06:33 2024: parent pid: 55930
+Mon Apr 15 16:06:33 2024: working directory: </Applications/Sonar/Workspaces/eclipse-workspace/HelloWorldCPP/Debug>
+Mon Apr 15 16:06:33 2024: executable: </Library/Developer/CommandLineTools/usr/bin/clang>
+Mon Apr 15 16:06:33 2024: argv[0]: </Library/Developer/CommandLineTools/usr/bin/clang++>
+Mon Apr 15 16:06:33 2024: argv[1]: <-O0>
+Mon Apr 15 16:06:33 2024: argv[2]: <-g3>
+Mon Apr 15 16:06:33 2024: argv[3]: <-Wall>
+Mon Apr 15 16:06:33 2024: argv[4]: <-c>
+Mon Apr 15 16:06:33 2024: argv[5]: <-fmessage-length=0>
+Mon Apr 15 16:06:33 2024: argv[6]: <-MMD>
+Mon Apr 15 16:06:33 2024: argv[7]: <-MP>
+Mon Apr 15 16:06:33 2024: argv[8]: <-MFsrc/HelloWorldCPP.d>
+Mon Apr 15 16:06:33 2024: argv[9]: <-MTsrc/HelloWorldCPP.o>
+Mon Apr 15 16:06:33 2024: argv[10]: <-o>
+Mon Apr 15 16:06:33 2024: argv[11]: <src/HelloWorldCPP.o>
+Mon Apr 15 16:06:33 2024: argv[12]: <../src/HelloWorldCPP.cpp>
+Mon Apr 15 16:06:33 2024: envp[0]: <SQ_WRAPPER_SOCKET=/tmp/build-wrapper-socket.20GLwx>
+Mon Apr 15 16:06:33 2024: envp[1]: <SQ_WRAPPER_LIBRARY=/Applications/Sonar/build-wrappers/10.4.1.build-wrapper-macosx-x86/libinterceptor.dylib>
+Mon Apr 15 16:06:33 2024: envp[2]: <SQ_BUILD_WRAPPER_BIN=/Applications/Sonar/build-wrappers/10.4.1.build-wrapper-macosx-x86/build-wrapper-macosx-x86>
+Mon Apr 15 16:06:33 2024: envp[3]: <SQ1030_HOST_URL=http://localhost:10200>
+Mon Apr 15 16:06:33 2024: envp[4]: <MANPATH=/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/share/man:/Library/Developer/CommandLineTools/usr/share/man:/Library/Developer/CommandLineTools/Toolchains/XcodeDefault.xctoolchain/usr/share/man:/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/share/man:/Library/Developer/CommandLineTools/usr/share/man:/Library/Developer/CommandLineTools/Toolchains/XcodeDefault.xctoolchain/usr/share/man:/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/share/man:/Library/Developer/CommandLineTools/usr/share/man:/Library/Developer/CommandLineTools/Toolchains/XcodeDefault.xctoolchain/usr/share/man:/opt/homebrew/share/man::>
+Mon Apr 15 16:06:33 2024: envp[5]: <TERM_PROGRAM=Apple_Terminal>
+Mon Apr 15 16:06:33 2024: envp[6]: <SQ1020_TOKEN=sqa_*>
+Mon Apr 15 16:06:33 2024: envp[7]: <TERM=xterm-256color>
+Mon Apr 15 16:06:33 2024: envp[8]: <SHELL=/bin/zsh>
+Mon Apr 15 16:06:33 2024: envp[9]: <CURRENT_PATH=/Applications/Sonar/Workspaces/eclipse-workspace/HelloWorldCPP/Debug>
+Mon Apr 15 16:06:33 2024: envp[10]: <MAKEFLAGS=>
+Mon Apr 15 16:06:33 2024: envp[11]: <HOMEBREW_REPOSITORY=/opt/homebrew>
+Mon Apr 15 16:06:33 2024: envp[12]: <TMPDIR=/var/folders/zd/hndvk11s30jcj4_yy_6c1qq40000gq/T/>
+Mon Apr 15 16:06:33 2024: envp[13]: <SQ990_PATH=/Applications/Sonar/SonarQube-EE/sonarqube-9.9.3.79811/bin/macosx-universal-64>
+Mon Apr 15 16:06:33 2024: envp[14]: <SQ990_HOST_URL=http://localhost:9900>
+Mon Apr 15 16:06:33 2024: envp[15]: <TERM_PROGRAM_VERSION=453>
+Mon Apr 15 16:06:33 2024: envp[16]: <BRANCH_NAME=>
+Mon Apr 15 16:06:33 2024: envp[17]: <SQ1041_TOKEN=sqa_*>
+Mon Apr 15 16:06:33 2024: envp[18]: <CURRENT_CSPROJ=Debug.csproj>
+Mon Apr 15 16:06:33 2024: envp[19]: <TERM_SESSION_ID=B54EF922-63E9-4C88-A5F2-6269D9CADFE0>
+Mon Apr 15 16:06:33 2024: envp[20]: <ZSH=/Users/basharath.ali/.oh-my-zsh>
+Mon Apr 15 16:06:33 2024: envp[21]: <SQ1030_PATH=/Applications/Sonar/SonarQube-EE/sonarqube-10.3.0.82913/bin/macosx-universal-64>
+Mon Apr 15 16:06:33 2024: envp[22]: <USER=basharath.ali>
+Mon Apr 15 16:06:33 2024: envp[23]: <LS_COLORS=di=1;36:ln=35:so=32:pi=33:ex=31:bd=34;46:cd=34;43:su=30;41:sg=30;46:tw=30;42:ow=30;43>
+Mon Apr 15 16:06:33 2024: envp[24]: <SQ890_PATH=/Applications/Sonar/SonarQube-EE/sonarqube-8.9.10.61524/bin/macosx-universal-64>
+Mon Apr 15 16:06:33 2024: envp[25]: <SQ890_TOKEN=sqa_*>
+Mon Apr 15 16:06:33 2024: envp[26]: <SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.YVS9rhese7/Listeners>
+Mon Apr 15 16:06:33 2024: envp[27]: <__CF_USER_TEXT_ENCODING=0x1F7:0x0:0x64>
+Mon Apr 15 16:06:33 2024: envp[28]: <SONAR_SCANNER_DLL=/Users/basharath.ali/Documents/Dev_Workspace/Scanners/sonar-scanner-6.2.0.85879-net/SonarScanner.MSBuild.dll>
+Mon Apr 15 16:06:33 2024: envp[29]: <PROJECT_KEY=Debug>
+Mon Apr 15 16:06:33 2024: envp[30]: <MAKELEVEL=1>
+Mon Apr 15 16:06:33 2024: envp[31]: <PAGER=less>
+Mon Apr 15 16:06:33 2024: envp[32]: <SQ1041_HOST_URL=http://localhost:10401>
+Mon Apr 15 16:06:33 2024: envp[33]: <MFLAGS=>
+Mon Apr 15 16:06:33 2024: envp[34]: <LSCOLORS=Gxfxcxdxbxegedabagacad>
+Mon Apr 15 16:06:33 2024: envp[35]: <SONAR_SCANNER_PATH=/Users/basharath.ali/Documents/Dev_Workspace/Scanners/sonar-scanner-6.2.0.85879-net/sonar-scanner-5.0.1.3006/bin/sonar-scanner>
+Mon Apr 15 16:06:33 2024: envp[36]: <SQ1020_HOST_URL=http://localhost:10200>
+Mon Apr 15 16:06:33 2024: envp[37]: <SQ990_TOKEN=sqa_*>
+Mon Apr 15 16:06:33 2024: envp[38]: <PATH=/Users/basharath.ali/.jenv/shims:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Applications/CyberArk EPM.app/Contents/Helpers:/usr/local/share/dotnet:~/.dotnet/tools:/usr/local/sbin:/Users/basharath.ali/.dotnet/tools:/Applications/sonar/build-wrapper-macosx-x86/build-wrapper-macosx-x86:/Applications/Sonar/sonar-scanner-5.0.1.3006-macosx\ 2/bin:/Applications/Sonar/build-wrappers/10.4.1.build-wrapper-macosx-x86>
+Mon Apr 15 16:06:33 2024: envp[39]: <_=/usr/bin/g++>
+Mon Apr 15 16:06:33 2024: envp[40]: <__CFBundleIdentifier=com.apple.Terminal>
+Mon Apr 15 16:06:33 2024: envp[41]: <JENV_LOADED=1>
+Mon Apr 15 16:06:33 2024: envp[42]: <PWD=/Applications/Sonar/Workspaces/eclipse-workspace/HelloWorldCPP/Debug>
+Mon Apr 15 16:06:33 2024: envp[43]: <SQ1040_TOKEN=sqa_*>
+Mon Apr 15 16:06:33 2024: envp[44]: <SQ890_HOST_URL=http://localhost:8900>
+Mon Apr 15 16:06:33 2024: envp[45]: <XPC_FLAGS=0x0>
+Mon Apr 15 16:06:33 2024: envp[46]: <SQ990DC_PATH=/Applications/Sonar/SonarQube-DCE/sonarqube-9.9.4.87374/bin/macosx-universal-64>
+Mon Apr 15 16:06:33 2024: envp[47]: <XPC_SERVICE_NAME=0>
+Mon Apr 15 16:06:33 2024: envp[48]: <SQ990DC_HOST_URL=http://localhost:9901>
+Mon Apr 15 16:06:33 2024: envp[49]: <SHLVL=2>
+Mon Apr 15 16:06:33 2024: envp[50]: <HOME=/Users/basharath.ali>
+Mon Apr 15 16:06:33 2024: envp[51]: <HOMEBREW_PREFIX=/opt/homebrew>
+Mon Apr 15 16:06:33 2024: envp[52]: <SQ1040_HOST_URL=http://localhost:10400>
+Mon Apr 15 16:06:33 2024: envp[53]: <SQ990DC_TOKEN=sqa_*>
+Mon Apr 15 16:06:33 2024: envp[54]: <LOGNAME=basharath.ali>
+Mon Apr 15 16:06:33 2024: envp[55]: <LESS=-R>
+Mon Apr 15 16:06:33 2024: envp[56]: <SQ1030_TOKEN=sqa_*>
+Mon Apr 15 16:06:33 2024: envp[57]: <JENV_SHELL=zsh>
+Mon Apr 15 16:06:33 2024: envp[58]: <LC_CTYPE=UTF-8>
+Mon Apr 15 16:06:33 2024: envp[59]: <SQ1041_PATH=/Applications/Sonar/SonarQube-EE/sonarqube-10.4.1.88267/bin/macosx-universal-64>
+Mon Apr 15 16:06:33 2024: envp[60]: <SQ1020_PATH=/Applications/Sonar/SonarQube-EE/sonarqube-10.2.1.78527/bin/macosx-universal-64>
+Mon Apr 15 16:06:33 2024: envp[61]: <HOMEBREW_CELLAR=/opt/homebrew/Cellar>
+Mon Apr 15 16:06:33 2024: envp[62]: <INFOPATH=/opt/homebrew/share/info:>
+Mon Apr 15 16:06:33 2024: envp[63]: <SQ1040_PATH=/Applications/Sonar/SonarQube-EE/sonarqube-10.4.0.87286/bin/macosx-universal-64>
+Mon Apr 15 16:06:33 2024: envp[64]: <SDKROOT=/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk>
+Mon Apr 15 16:06:33 2024: envp[65]: <CPATH=/usr/local/include>
+Mon Apr 15 16:06:33 2024: envp[66]: <LIBRARY_PATH=/usr/local/lib>
+Mon Apr 15 16:06:33 2024: envp[67]: <DYLD_INSERT_LIBRARIES=>
+Mon Apr 15 16:06:33 2024: process created with pid: 55993
+Mon Apr 15 16:06:33 2024: parent pid: 55949
+Mon Apr 15 16:06:33 2024: working directory: </Applications/Sonar/Workspaces/eclipse-workspace/HelloWorldCPP/Debug>
+Mon Apr 15 16:06:33 2024: executable: </Library/Developer/CommandLineTools/usr/bin/clang>
+Mon Apr 15 16:06:33 2024: argv[0]: </Library/Developer/CommandLineTools/usr/bin/clang>
+Mon Apr 15 16:06:33 2024: argv[1]: <-cc1>
+Mon Apr 15 16:06:33 2024: argv[2]: <-triple>
+Mon Apr 15 16:06:33 2024: argv[3]: <x86_64-apple-macosx14.0.0>
+Mon Apr 15 16:06:33 2024: argv[4]: <-Wundef-prefix=TARGET_OS_>
+Mon Apr 15 16:06:33 2024: argv[5]: <-Wdeprecated-objc-isa-usage>
+Mon Apr 15 16:06:33 2024: argv[6]: <-Werror=deprecated-objc-isa-usage>
+Mon Apr 15 16:06:33 2024: argv[7]: <-Werror=implicit-function-declaration>
+Mon Apr 15 16:06:33 2024: argv[8]: <-emit-obj>
+Mon Apr 15 16:06:33 2024: argv[9]: <-mrelax-all>
+Mon Apr 15 16:06:33 2024: argv[10]: <--mrelax-relocations>
+Mon Apr 15 16:06:33 2024: argv[11]: <-disable-free>
+Mon Apr 15 16:06:33 2024: argv[12]: <-clear-ast-before-backend>
+Mon Apr 15 16:06:33 2024: argv[13]: <-disable-llvm-verifier>
+Mon Apr 15 16:06:33 2024: argv[14]: <-discard-value-names>
+Mon Apr 15 16:06:33 2024: argv[15]: <-main-file-name>
+Mon Apr 15 16:06:33 2024: argv[16]: <HelloWorldCPP.cpp>
+Mon Apr 15 16:06:33 2024: argv[17]: <-mrelocation-model>
+Mon Apr 15 16:06:33 2024: argv[18]: <pic>
+Mon Apr 15 16:06:33 2024: argv[19]: <-pic-level>
+Mon Apr 15 16:06:33 2024: argv[20]: <2>
+Mon Apr 15 16:06:33 2024: argv[21]: <-mframe-pointer=all>
+Mon Apr 15 16:06:33 2024: argv[22]: <-fno-strict-return>
+Mon Apr 15 16:06:33 2024: argv[23]: <-ffp-contract=on>
+Mon Apr 15 16:06:33 2024: argv[24]: <-fno-rounding-math>
+Mon Apr 15 16:06:33 2024: argv[25]: <-funwind-tables=2>
+Mon Apr 15 16:06:33 2024: argv[26]: <-target-sdk-version=14.4>
+Mon Apr 15 16:06:33 2024: argv[27]: <-fvisibility-inlines-hidden-static-local-var>
+Mon Apr 15 16:06:33 2024: argv[28]: <-target-cpu>
+Mon Apr 15 16:06:33 2024: argv[29]: <penryn>
+Mon Apr 15 16:06:33 2024: argv[30]: <-tune-cpu>
+Mon Apr 15 16:06:33 2024: argv[31]: <generic>
+Mon Apr 15 16:06:33 2024: argv[32]: <-debug-info-kind=standalone>
+Mon Apr 15 16:06:33 2024: argv[33]: <-dwarf-version=4>
+Mon Apr 15 16:06:33 2024: argv[34]: <-debugger-tuning=lldb>
+Mon Apr 15 16:06:33 2024: argv[35]: <-target-linker-version>
+Mon Apr 15 16:06:33 2024: argv[36]: <1053.12>
+Mon Apr 15 16:06:33 2024: argv[37]: <-fcoverage-compilation-dir=/Applications/Sonar/Workspaces/eclipse-workspace/HelloWorldCPP/Debug>
+Mon Apr 15 16:06:33 2024: argv[38]: <-resource-dir>
+Mon Apr 15 16:06:33 2024: argv[39]: </Library/Developer/CommandLineTools/usr/lib/clang/15.0.0>
+Mon Apr 15 16:06:33 2024: argv[40]: <-dependency-file>
+Mon Apr 15 16:06:33 2024: argv[41]: <src/HelloWorldCPP.d>
+Mon Apr 15 16:06:33 2024: argv[42]: <-skip-unused-modulemap-deps>
+Mon Apr 15 16:06:33 2024: argv[43]: <-MT>
+Mon Apr 15 16:06:33 2024: argv[44]: <src/HelloWorldCPP.o>
+Mon Apr 15 16:06:33 2024: argv[45]: <-MP>
+Mon Apr 15 16:06:33 2024: argv[46]: <-isysroot>
+Mon Apr 15 16:06:33 2024: argv[47]: </Library/Developer/CommandLineTools/SDKs/MacOSX.sdk>
+Mon Apr 15 16:06:33 2024: argv[48]: <-I/usr/local/include>
+Mon Apr 15 16:06:33 2024: argv[49]: <-internal-isystem>
+Mon Apr 15 16:06:33 2024: argv[50]: </Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1>
+Mon Apr 15 16:06:33 2024: argv[51]: <-internal-isystem>
+Mon Apr 15 16:06:33 2024: argv[52]: </Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include>
+Mon Apr 15 16:06:33 2024: argv[53]: <-internal-isystem>
+Mon Apr 15 16:06:33 2024: argv[54]: </Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include>
+Mon Apr 15 16:06:33 2024: argv[55]: <-internal-externc-isystem>
+Mon Apr 15 16:06:33 2024: argv[56]: </Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include>
+Mon Apr 15 16:06:33 2024: argv[57]: <-internal-externc-isystem>
+Mon Apr 15 16:06:33 2024: argv[58]: </Library/Developer/CommandLineTools/usr/include>
+Mon Apr 15 16:06:33 2024: argv[59]: <-O0>
+Mon Apr 15 16:06:33 2024: argv[60]: <-Wall>
+Mon Apr 15 16:06:33 2024: argv[61]: <-Wno-reorder-init-list>
+Mon Apr 15 16:06:33 2024: argv[62]: <-Wno-implicit-int-float-conversion>
+Mon Apr 15 16:06:33 2024: argv[63]: <-Wno-c99-designator>
+Mon Apr 15 16:06:33 2024: argv[64]: <-Wno-final-dtor-non-final-class>
+Mon Apr 15 16:06:33 2024: argv[65]: <-Wno-extra-semi-stmt>
+Mon Apr 15 16:06:33 2024: argv[66]: <-Wno-misleading-indentation>
+Mon Apr 15 16:06:33 2024: argv[67]: <-Wno-quoted-include-in-framework-header>
+Mon Apr 15 16:06:33 2024: argv[68]: <-Wno-implicit-fallthrough>
+Mon Apr 15 16:06:33 2024: argv[69]: <-Wno-enum-enum-conversion>
+Mon Apr 15 16:06:33 2024: argv[70]: <-Wno-enum-float-conversion>
+Mon Apr 15 16:06:33 2024: argv[71]: <-Wno-elaborated-enum-base>
+Mon Apr 15 16:06:33 2024: argv[72]: <-Wno-reserved-identifier>
+Mon Apr 15 16:06:33 2024: argv[73]: <-Wno-gnu-folding-constant>
+Mon Apr 15 16:06:33 2024: argv[74]: <-fdeprecated-macro>
+Mon Apr 15 16:06:33 2024: argv[75]: <-fdebug-compilation-dir=/Applications/Sonar/Workspaces/eclipse-workspace/HelloWorldCPP/Debug>
+Mon Apr 15 16:06:33 2024: argv[76]: <-ferror-limit>
+Mon Apr 15 16:06:33 2024: argv[77]: <19>
+Mon Apr 15 16:06:33 2024: argv[78]: <-stack-protector>
+Mon Apr 15 16:06:33 2024: argv[79]: <1>
+Mon Apr 15 16:06:33 2024: argv[80]: <-fstack-check>
+Mon Apr 15 16:06:33 2024: argv[81]: <-mdarwin-stkchk-strong-link>
+Mon Apr 15 16:06:33 2024: argv[82]: <-fblocks>
+Mon Apr 15 16:06:33 2024: argv[83]: <-fencode-extended-block-signature>
+Mon Apr 15 16:06:33 2024: argv[84]: <-fregister-global-dtors-with-atexit>
+Mon Apr 15 16:06:33 2024: argv[85]: <-fgnuc-version=4.2.1>
+Mon Apr 15 16:06:33 2024: argv[86]: <-fno-cxx-modules>
+Mon Apr 15 16:06:33 2024: argv[87]: <-fcxx-exceptions>
+Mon Apr 15 16:06:33 2024: argv[88]: <-fexceptions>
+Mon Apr 15 16:06:33 2024: argv[89]: <-fmax-type-align=16>
+Mon Apr 15 16:06:33 2024: argv[90]: <-fcommon>
+Mon Apr 15 16:06:33 2024: argv[91]: <-fcolor-diagnostics>
+Mon Apr 15 16:06:33 2024: argv[92]: <-clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation>
+Mon Apr 15 16:06:33 2024: argv[93]: <-fno-odr-hash-protocols>
+Mon Apr 15 16:06:33 2024: argv[94]: <-clang-vendor-feature=+enableAggressiveVLAFolding>
+Mon Apr 15 16:06:33 2024: argv[95]: <-clang-vendor-feature=+revert09abecef7bbf>
+Mon Apr 15 16:06:33 2024: argv[96]: <-clang-vendor-feature=+thisNoAlignAttr>
+Mon Apr 15 16:06:33 2024: argv[97]: <-clang-vendor-feature=+thisNoNullAttr>
+Mon Apr 15 16:06:33 2024: argv[98]: <-mllvm>
+Mon Apr 15 16:06:33 2024: argv[99]: <-disable-aligned-alloc-awareness=1>
+Mon Apr 15 16:06:33 2024: argv[100]: <-D__GCC_HAVE_DWARF2_CFI_ASM=1>
+Mon Apr 15 16:06:33 2024: argv[101]: <-o>
+Mon Apr 15 16:06:33 2024: argv[102]: <src/HelloWorldCPP.o>
+Mon Apr 15 16:06:33 2024: argv[103]: <-x>
+Mon Apr 15 16:06:33 2024: argv[104]: <c++>
+Mon Apr 15 16:06:33 2024: argv[105]: <../src/HelloWorldCPP.cpp>
+Mon Apr 15 16:06:33 2024: envp[0]: <SQ_WRAPPER_SOCKET=/tmp/build-wrapper-socket.20GLwx>
+Mon Apr 15 16:06:33 2024: envp[1]: <SQ_WRAPPER_LIBRARY=/Applications/Sonar/build-wrappers/10.4.1.build-wrapper-macosx-x86/libinterceptor.dylib>
+Mon Apr 15 16:06:33 2024: envp[2]: <SQ_BUILD_WRAPPER_BIN=/Applications/Sonar/build-wrappers/10.4.1.build-wrapper-macosx-x86/build-wrapper-macosx-x86>
+Mon Apr 15 16:06:33 2024: envp[3]: <SQ1030_HOST_URL=http://localhost:10200>
+Mon Apr 15 16:06:33 2024: envp[4]: <MANPATH=/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/share/man:/Library/Developer/CommandLineTools/usr/share/man:/Library/Developer/CommandLineTools/Toolchains/XcodeDefault.xctoolchain/usr/share/man:/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/share/man:/Library/Developer/CommandLineTools/usr/share/man:/Library/Developer/CommandLineTools/Toolchains/XcodeDefault.xctoolchain/usr/share/man:/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/share/man:/Library/Developer/CommandLineTools/usr/share/man:/Library/Developer/CommandLineTools/Toolchains/XcodeDefault.xctoolchain/usr/share/man:/opt/homebrew/share/man::>
+Mon Apr 15 16:06:33 2024: envp[5]: <TERM_PROGRAM=Apple_Terminal>
+Mon Apr 15 16:06:33 2024: envp[6]: <SQ1020_TOKEN=sqa_*>
+Mon Apr 15 16:06:33 2024: envp[7]: <TERM=xterm-256color>
+Mon Apr 15 16:06:33 2024: envp[8]: <SHELL=/bin/zsh>
+Mon Apr 15 16:06:33 2024: envp[9]: <CURRENT_PATH=/Applications/Sonar/Workspaces/eclipse-workspace/HelloWorldCPP/Debug>
+Mon Apr 15 16:06:33 2024: envp[10]: <MAKEFLAGS=>
+Mon Apr 15 16:06:33 2024: envp[11]: <HOMEBREW_REPOSITORY=/opt/homebrew>
+Mon Apr 15 16:06:33 2024: envp[12]: <TMPDIR=/var/folders/zd/hndvk11s30jcj4_yy_6c1qq40000gq/T/>
+Mon Apr 15 16:06:33 2024: envp[13]: <SQ990_PATH=/Applications/Sonar/SonarQube-EE/sonarqube-9.9.3.79811/bin/macosx-universal-64>
+Mon Apr 15 16:06:33 2024: envp[14]: <SQ990_HOST_URL=http://localhost:9900>
+Mon Apr 15 16:06:33 2024: envp[15]: <TERM_PROGRAM_VERSION=453>
+Mon Apr 15 16:06:33 2024: envp[16]: <BRANCH_NAME=>
+Mon Apr 15 16:06:33 2024: envp[17]: <SQ1041_TOKEN=sqa_*>
+Mon Apr 15 16:06:33 2024: envp[18]: <CURRENT_CSPROJ=Debug.csproj>
+Mon Apr 15 16:06:33 2024: envp[19]: <TERM_SESSION_ID=B54EF922-63E9-4C88-A5F2-6269D9CADFE0>
+Mon Apr 15 16:06:33 2024: envp[20]: <ZSH=/Users/basharath.ali/.oh-my-zsh>
+Mon Apr 15 16:06:33 2024: envp[21]: <SQ1030_PATH=/Applications/Sonar/SonarQube-EE/sonarqube-10.3.0.82913/bin/macosx-universal-64>
+Mon Apr 15 16:06:33 2024: envp[22]: <USER=basharath.ali>
+Mon Apr 15 16:06:33 2024: envp[23]: <LS_COLORS=di=1;36:ln=35:so=32:pi=33:ex=31:bd=34;46:cd=34;43:su=30;41:sg=30;46:tw=30;42:ow=30;43>
+Mon Apr 15 16:06:33 2024: envp[24]: <SQ890_PATH=/Applications/Sonar/SonarQube-EE/sonarqube-8.9.10.61524/bin/macosx-universal-64>
+Mon Apr 15 16:06:33 2024: envp[25]: <SQ890_TOKEN=sqa_*>
+Mon Apr 15 16:06:33 2024: envp[26]: <SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.YVS9rhese7/Listeners>
+Mon Apr 15 16:06:33 2024: envp[27]: <__CF_USER_TEXT_ENCODING=0x1F7:0x0:0x64>
+Mon Apr 15 16:06:33 2024: envp[28]: <SONAR_SCANNER_DLL=/Users/basharath.ali/Documents/Dev_Workspace/Scanners/sonar-scanner-6.2.0.85879-net/SonarScanner.MSBuild.dll>
+Mon Apr 15 16:06:33 2024: envp[29]: <PROJECT_KEY=Debug>
+Mon Apr 15 16:06:33 2024: envp[30]: <MAKELEVEL=1>
+Mon Apr 15 16:06:33 2024: envp[31]: <PAGER=less>
+Mon Apr 15 16:06:33 2024: envp[32]: <SQ1041_HOST_URL=http://localhost:10401>
+Mon Apr 15 16:06:33 2024: envp[33]: <MFLAGS=>
+Mon Apr 15 16:06:33 2024: envp[34]: <LSCOLORS=Gxfxcxdxbxegedabagacad>
+Mon Apr 15 16:06:33 2024: envp[35]: <SONAR_SCANNER_PATH=/Users/basharath.ali/Documents/Dev_Workspace/Scanners/sonar-scanner-6.2.0.85879-net/sonar-scanner-5.0.1.3006/bin/sonar-scanner>
+Mon Apr 15 16:06:33 2024: envp[36]: <SQ1020_HOST_URL=http://localhost:10200>
+Mon Apr 15 16:06:33 2024: envp[37]: <SQ990_TOKEN=sqa_*>
+Mon Apr 15 16:06:33 2024: envp[38]: <PATH=/Users/basharath.ali/.jenv/shims:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Applications/CyberArk EPM.app/Contents/Helpers:/usr/local/share/dotnet:~/.dotnet/tools:/usr/local/sbin:/Users/basharath.ali/.dotnet/tools:/Applications/sonar/build-wrapper-macosx-x86/build-wrapper-macosx-x86:/Applications/Sonar/sonar-scanner-5.0.1.3006-macosx\ 2/bin:/Applications/Sonar/build-wrappers/10.4.1.build-wrapper-macosx-x86>
+Mon Apr 15 16:06:33 2024: envp[39]: <_=/usr/bin/g++>
+Mon Apr 15 16:06:33 2024: envp[40]: <__CFBundleIdentifier=com.apple.Terminal>
+Mon Apr 15 16:06:33 2024: envp[41]: <JENV_LOADED=1>
+Mon Apr 15 16:06:33 2024: envp[42]: <PWD=/Applications/Sonar/Workspaces/eclipse-workspace/HelloWorldCPP/Debug>
+Mon Apr 15 16:06:33 2024: envp[43]: <SQ1040_TOKEN=sqa_*>
+Mon Apr 15 16:06:33 2024: envp[44]: <SQ890_HOST_URL=http://localhost:8900>
+Mon Apr 15 16:06:33 2024: envp[45]: <XPC_FLAGS=0x0>
+Mon Apr 15 16:06:33 2024: envp[46]: <SQ990DC_PATH=/Applications/Sonar/SonarQube-DCE/sonarqube-9.9.4.87374/bin/macosx-universal-64>
+Mon Apr 15 16:06:33 2024: envp[47]: <XPC_SERVICE_NAME=0>
+Mon Apr 15 16:06:33 2024: envp[48]: <SQ990DC_HOST_URL=http://localhost:9901>
+Mon Apr 15 16:06:33 2024: envp[49]: <SHLVL=2>
+Mon Apr 15 16:06:33 2024: envp[50]: <HOME=/Users/basharath.ali>
+Mon Apr 15 16:06:33 2024: envp[51]: <HOMEBREW_PREFIX=/opt/homebrew>
+Mon Apr 15 16:06:33 2024: envp[52]: <SQ1040_HOST_URL=http://localhost:10400>
+Mon Apr 15 16:06:33 2024: envp[53]: <SQ990DC_TOKEN=sqa_*>
+Mon Apr 15 16:06:33 2024: envp[54]: <LOGNAME=basharath.ali>
+Mon Apr 15 16:06:33 2024: envp[55]: <LESS=-R>
+Mon Apr 15 16:06:33 2024: envp[56]: <SQ1030_TOKEN=sqa_*>
+Mon Apr 15 16:06:33 2024: envp[57]: <JENV_SHELL=zsh>
+Mon Apr 15 16:06:33 2024: envp[58]: <LC_CTYPE=UTF-8>
+Mon Apr 15 16:06:33 2024: envp[59]: <SQ1041_PATH=/Applications/Sonar/SonarQube-EE/sonarqube-10.4.1.88267/bin/macosx-universal-64>
+Mon Apr 15 16:06:33 2024: envp[60]: <SQ1020_PATH=/Applications/Sonar/SonarQube-EE/sonarqube-10.2.1.78527/bin/macosx-universal-64>
+Mon Apr 15 16:06:33 2024: envp[61]: <HOMEBREW_CELLAR=/opt/homebrew/Cellar>
+Mon Apr 15 16:06:33 2024: envp[62]: <INFOPATH=/opt/homebrew/share/info:>
+Mon Apr 15 16:06:33 2024: envp[63]: <SQ1040_PATH=/Applications/Sonar/SonarQube-EE/sonarqube-10.4.0.87286/bin/macosx-universal-64>
+Mon Apr 15 16:06:33 2024: envp[64]: <SDKROOT=/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk>
+Mon Apr 15 16:06:33 2024: envp[65]: <CPATH=/usr/local/include>
+Mon Apr 15 16:06:33 2024: envp[66]: <LIBRARY_PATH=/usr/local/lib>
+Mon Apr 15 16:06:33 2024: envp[67]: <DYLD_INSERT_LIBRARIES=>
+Mon Apr 15 16:06:33 2024: process created with pid: 55994
+Mon Apr 15 16:06:33 2024: parent pid: 55930
+Mon Apr 15 16:06:33 2024: working directory: </Applications/Sonar/Workspaces/eclipse-workspace/HelloWorldCPP/Debug>
+Mon Apr 15 16:06:33 2024: executable: </private/tmp/sonarsource-build-wrapper-cache-503/bin/echo>
+Mon Apr 15 16:06:33 2024: argv[0]: <echo>
+Mon Apr 15 16:06:33 2024: argv[1]: <Finished building: ../src/HelloWorldCPP.cpp>
+Mon Apr 15 16:06:33 2024: skipping process with pid: 55994
+Mon Apr 15 16:06:33 2024: process created with pid: 55995
+Mon Apr 15 16:06:33 2024: parent pid: 55930
+Mon Apr 15 16:06:33 2024: working directory: </Applications/Sonar/Workspaces/eclipse-workspace/HelloWorldCPP/Debug>
+Mon Apr 15 16:06:33 2024: executable: </private/tmp/sonarsource-build-wrapper-cache-503/bin/echo>
+Mon Apr 15 16:06:33 2024: argv[0]: <echo>
+Mon Apr 15 16:06:33 2024: argv[1]: < >
+Mon Apr 15 16:06:33 2024: skipping process with pid: 55995
+Mon Apr 15 16:06:33 2024: process created with pid: 55996
+Mon Apr 15 16:06:33 2024: parent pid: 55930
+Mon Apr 15 16:06:33 2024: working directory: </Applications/Sonar/Workspaces/eclipse-workspace/HelloWorldCPP/Debug>
+Mon Apr 15 16:06:33 2024: executable: </private/tmp/sonarsource-build-wrapper-cache-503/bin/echo>
+Mon Apr 15 16:06:33 2024: argv[0]: <echo>
+Mon Apr 15 16:06:33 2024: argv[1]: <Building target: HelloWorldCPP>
+Mon Apr 15 16:06:33 2024: skipping process with pid: 55996
+Mon Apr 15 16:06:33 2024: process created with pid: 55997
+Mon Apr 15 16:06:33 2024: parent pid: 55930
+Mon Apr 15 16:06:33 2024: working directory: </Applications/Sonar/Workspaces/eclipse-workspace/HelloWorldCPP/Debug>
+Mon Apr 15 16:06:33 2024: executable: </private/tmp/sonarsource-build-wrapper-cache-503/bin/echo>
+Mon Apr 15 16:06:33 2024: argv[0]: <echo>
+Mon Apr 15 16:06:33 2024: argv[1]: <Invoking: Cross G++ Linker>
+Mon Apr 15 16:06:33 2024: skipping process with pid: 55997
+Mon Apr 15 16:06:33 2024: process created with pid: 55998
+Mon Apr 15 16:06:33 2024: parent pid: 55930
+Mon Apr 15 16:06:33 2024: working directory: </Applications/Sonar/Workspaces/eclipse-workspace/HelloWorldCPP/Debug>
+Mon Apr 15 16:06:33 2024: executable: </private/tmp/sonarsource-build-wrapper-cache-503/bin/sh>
+Mon Apr 15 16:06:33 2024: argv[0]: </bin/sh>
+Mon Apr 15 16:06:33 2024: argv[1]: <-c>
+Mon Apr 15 16:06:33 2024: argv[2]: <g++  -o "HelloWorldCPP"  ./src/HelloWorldCPP.o   >
+Mon Apr 15 16:06:33 2024: skipping process with pid: 55998
+Mon Apr 15 16:06:33 2024: process created with pid: 55998
+Mon Apr 15 16:06:33 2024: parent pid: 55930
+Mon Apr 15 16:06:33 2024: working directory: </Applications/Sonar/Workspaces/eclipse-workspace/HelloWorldCPP/Debug>
+Mon Apr 15 16:06:33 2024: executable: </private/tmp/sonarsource-build-wrapper-cache-503/bin/bash>
+Mon Apr 15 16:06:33 2024: argv[0]: </bin/sh>
+Mon Apr 15 16:06:33 2024: argv[1]: <-c>
+Mon Apr 15 16:06:33 2024: argv[2]: <g++  -o "HelloWorldCPP"  ./src/HelloWorldCPP.o   >
+Mon Apr 15 16:06:33 2024: skipping process with pid: 55998
+Mon Apr 15 16:06:33 2024: process created with pid: 55998
+Mon Apr 15 16:06:33 2024: parent pid: 55930
+Mon Apr 15 16:06:33 2024: working directory: </Applications/Sonar/Workspaces/eclipse-workspace/HelloWorldCPP/Debug>
+Mon Apr 15 16:06:33 2024: executable: </private/tmp/sonarsource-build-wrapper-cache-503/usr/bin/g++>
+Mon Apr 15 16:06:33 2024: argv[0]: <g++>
+Mon Apr 15 16:06:33 2024: argv[1]: <-o>
+Mon Apr 15 16:06:33 2024: argv[2]: <HelloWorldCPP>
+Mon Apr 15 16:06:33 2024: argv[3]: <./src/HelloWorldCPP.o>
+Mon Apr 15 16:06:33 2024: envp[0]: <SQ_WRAPPER_SOCKET=/tmp/build-wrapper-socket.20GLwx>
+Mon Apr 15 16:06:33 2024: envp[1]: <SQ_WRAPPER_LIBRARY=/Applications/Sonar/build-wrappers/10.4.1.build-wrapper-macosx-x86/libinterceptor.dylib>
+Mon Apr 15 16:06:33 2024: envp[2]: <SQ_BUILD_WRAPPER_BIN=/Applications/Sonar/build-wrappers/10.4.1.build-wrapper-macosx-x86/build-wrapper-macosx-x86>
+Mon Apr 15 16:06:33 2024: envp[3]: <SQ1030_HOST_URL=http://localhost:10200>
+Mon Apr 15 16:06:33 2024: envp[4]: <MANPATH=/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/share/man:/Library/Developer/CommandLineTools/usr/share/man:/Library/Developer/CommandLineTools/Toolchains/XcodeDefault.xctoolchain/usr/share/man:/opt/homebrew/share/man::>
+Mon Apr 15 16:06:33 2024: envp[5]: <TERM_PROGRAM=Apple_Terminal>
+Mon Apr 15 16:06:33 2024: envp[6]: <SQ1020_TOKEN=sqa_*>
+Mon Apr 15 16:06:33 2024: envp[7]: <TERM=xterm-256color>
+Mon Apr 15 16:06:33 2024: envp[8]: <SHELL=/bin/zsh>
+Mon Apr 15 16:06:33 2024: envp[9]: <CURRENT_PATH=/Applications/Sonar/Workspaces/eclipse-workspace/HelloWorldCPP/Debug>
+Mon Apr 15 16:06:33 2024: envp[10]: <MAKEFLAGS=>
+Mon Apr 15 16:06:33 2024: envp[11]: <HOMEBREW_REPOSITORY=/opt/homebrew>
+Mon Apr 15 16:06:33 2024: envp[12]: <TMPDIR=/var/folders/zd/hndvk11s30jcj4_yy_6c1qq40000gq/T/>
+Mon Apr 15 16:06:33 2024: envp[13]: <SQ990_PATH=/Applications/Sonar/SonarQube-EE/sonarqube-9.9.3.79811/bin/macosx-universal-64>
+Mon Apr 15 16:06:33 2024: envp[14]: <SQ990_HOST_URL=http://localhost:9900>
+Mon Apr 15 16:06:33 2024: envp[15]: <TERM_PROGRAM_VERSION=453>
+Mon Apr 15 16:06:33 2024: envp[16]: <BRANCH_NAME=>
+Mon Apr 15 16:06:33 2024: envp[17]: <SQ1041_TOKEN=sqa_*>
+Mon Apr 15 16:06:33 2024: envp[18]: <CURRENT_CSPROJ=Debug.csproj>
+Mon Apr 15 16:06:33 2024: envp[19]: <TERM_SESSION_ID=B54EF922-63E9-4C88-A5F2-6269D9CADFE0>
+Mon Apr 15 16:06:33 2024: envp[20]: <ZSH=/Users/basharath.ali/.oh-my-zsh>
+Mon Apr 15 16:06:33 2024: envp[21]: <SQ1030_PATH=/Applications/Sonar/SonarQube-EE/sonarqube-10.3.0.82913/bin/macosx-universal-64>
+Mon Apr 15 16:06:33 2024: envp[22]: <USER=basharath.ali>
+Mon Apr 15 16:06:33 2024: envp[23]: <LS_COLORS=di=1;36:ln=35:so=32:pi=33:ex=31:bd=34;46:cd=34;43:su=30;41:sg=30;46:tw=30;42:ow=30;43>
+Mon Apr 15 16:06:33 2024: envp[24]: <SQ890_PATH=/Applications/Sonar/SonarQube-EE/sonarqube-8.9.10.61524/bin/macosx-universal-64>
+Mon Apr 15 16:06:33 2024: envp[25]: <SQ890_TOKEN=sqa_*>
+Mon Apr 15 16:06:33 2024: envp[26]: <SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.YVS9rhese7/Listeners>
+Mon Apr 15 16:06:33 2024: envp[27]: <__CF_USER_TEXT_ENCODING=0x1F7:0x0:0x64>
+Mon Apr 15 16:06:33 2024: envp[28]: <SONAR_SCANNER_DLL=/Users/basharath.ali/Documents/Dev_Workspace/Scanners/sonar-scanner-6.2.0.85879-net/SonarScanner.MSBuild.dll>
+Mon Apr 15 16:06:33 2024: envp[29]: <PROJECT_KEY=Debug>
+Mon Apr 15 16:06:33 2024: envp[30]: <MAKELEVEL=1>
+Mon Apr 15 16:06:33 2024: envp[31]: <PAGER=less>
+Mon Apr 15 16:06:33 2024: envp[32]: <SQ1041_HOST_URL=http://localhost:10401>
+Mon Apr 15 16:06:33 2024: envp[33]: <MFLAGS=>
+Mon Apr 15 16:06:33 2024: envp[34]: <LSCOLORS=Gxfxcxdxbxegedabagacad>
+Mon Apr 15 16:06:33 2024: envp[35]: <SONAR_SCANNER_PATH=/Users/basharath.ali/Documents/Dev_Workspace/Scanners/sonar-scanner-6.2.0.85879-net/sonar-scanner-5.0.1.3006/bin/sonar-scanner>
+Mon Apr 15 16:06:33 2024: envp[36]: <SQ1020_HOST_URL=http://localhost:10200>
+Mon Apr 15 16:06:33 2024: envp[37]: <SQ990_TOKEN=sqa_*>
+Mon Apr 15 16:06:33 2024: envp[38]: <PATH=/Users/basharath.ali/.jenv/shims:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Applications/CyberArk EPM.app/Contents/Helpers:/usr/local/share/dotnet:~/.dotnet/tools:/usr/local/sbin:/Users/basharath.ali/.dotnet/tools:/Applications/sonar/build-wrapper-macosx-x86/build-wrapper-macosx-x86:/Applications/Sonar/sonar-scanner-5.0.1.3006-macosx\ 2/bin:/Applications/Sonar/build-wrappers/10.4.1.build-wrapper-macosx-x86>
+Mon Apr 15 16:06:33 2024: envp[39]: <_=/usr/bin/g++>
+Mon Apr 15 16:06:33 2024: envp[40]: <__CFBundleIdentifier=com.apple.Terminal>
+Mon Apr 15 16:06:33 2024: envp[41]: <JENV_LOADED=1>
+Mon Apr 15 16:06:33 2024: envp[42]: <PWD=/Applications/Sonar/Workspaces/eclipse-workspace/HelloWorldCPP/Debug>
+Mon Apr 15 16:06:33 2024: envp[43]: <SQ1040_TOKEN=sqa_*>
+Mon Apr 15 16:06:33 2024: envp[44]: <SQ890_HOST_URL=http://localhost:8900>
+Mon Apr 15 16:06:33 2024: envp[45]: <XPC_FLAGS=0x0>
+Mon Apr 15 16:06:33 2024: envp[46]: <SQ990DC_PATH=/Applications/Sonar/SonarQube-DCE/sonarqube-9.9.4.87374/bin/macosx-universal-64>
+Mon Apr 15 16:06:33 2024: envp[47]: <XPC_SERVICE_NAME=0>
+Mon Apr 15 16:06:33 2024: envp[48]: <SQ990DC_HOST_URL=http://localhost:9901>
+Mon Apr 15 16:06:33 2024: envp[49]: <SHLVL=2>
+Mon Apr 15 16:06:33 2024: envp[50]: <HOME=/Users/basharath.ali>
+Mon Apr 15 16:06:33 2024: envp[51]: <HOMEBREW_PREFIX=/opt/homebrew>
+Mon Apr 15 16:06:33 2024: envp[52]: <SQ1040_HOST_URL=http://localhost:10400>
+Mon Apr 15 16:06:33 2024: envp[53]: <SQ990DC_TOKEN=sqa_*>
+Mon Apr 15 16:06:33 2024: envp[54]: <LOGNAME=basharath.ali>
+Mon Apr 15 16:06:33 2024: envp[55]: <LESS=-R>
+Mon Apr 15 16:06:33 2024: envp[56]: <SQ1030_TOKEN=sqa_*>
+Mon Apr 15 16:06:33 2024: envp[57]: <JENV_SHELL=zsh>
+Mon Apr 15 16:06:33 2024: envp[58]: <LC_CTYPE=UTF-8>
+Mon Apr 15 16:06:33 2024: envp[59]: <SQ1041_PATH=/Applications/Sonar/SonarQube-EE/sonarqube-10.4.1.88267/bin/macosx-universal-64>
+Mon Apr 15 16:06:33 2024: envp[60]: <SQ1020_PATH=/Applications/Sonar/SonarQube-EE/sonarqube-10.2.1.78527/bin/macosx-universal-64>
+Mon Apr 15 16:06:33 2024: envp[61]: <HOMEBREW_CELLAR=/opt/homebrew/Cellar>
+Mon Apr 15 16:06:33 2024: envp[62]: <INFOPATH=/opt/homebrew/share/info:>
+Mon Apr 15 16:06:33 2024: envp[63]: <SQ1040_PATH=/Applications/Sonar/SonarQube-EE/sonarqube-10.4.0.87286/bin/macosx-universal-64>
+Mon Apr 15 16:06:33 2024: envp[64]: <DYLD_INSERT_LIBRARIES=>
+Mon Apr 15 16:06:33 2024: process created with pid: 55998
+Mon Apr 15 16:06:33 2024: parent pid: 55930
+Mon Apr 15 16:06:33 2024: working directory: </Applications/Sonar/Workspaces/eclipse-workspace/HelloWorldCPP/Debug>
+Mon Apr 15 16:06:33 2024: executable: </Library/Developer/CommandLineTools/usr/bin/gcc>
+Mon Apr 15 16:06:33 2024: argv[0]: </Library/Developer/CommandLineTools/usr/bin/g++>
+Mon Apr 15 16:06:33 2024: argv[1]: <-o>
+Mon Apr 15 16:06:33 2024: argv[2]: <HelloWorldCPP>
+Mon Apr 15 16:06:33 2024: argv[3]: <./src/HelloWorldCPP.o>
+Mon Apr 15 16:06:33 2024: envp[0]: <SQ_WRAPPER_SOCKET=/tmp/build-wrapper-socket.20GLwx>
+Mon Apr 15 16:06:33 2024: envp[1]: <SQ_WRAPPER_LIBRARY=/Applications/Sonar/build-wrappers/10.4.1.build-wrapper-macosx-x86/libinterceptor.dylib>
+Mon Apr 15 16:06:33 2024: envp[2]: <SQ_BUILD_WRAPPER_BIN=/Applications/Sonar/build-wrappers/10.4.1.build-wrapper-macosx-x86/build-wrapper-macosx-x86>
+Mon Apr 15 16:06:33 2024: envp[3]: <SQ1030_HOST_URL=http://localhost:10200>
+Mon Apr 15 16:06:33 2024: envp[4]: <MANPATH=/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/share/man:/Library/Developer/CommandLineTools/usr/share/man:/Library/Developer/CommandLineTools/Toolchains/XcodeDefault.xctoolchain/usr/share/man:/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/share/man:/Library/Developer/CommandLineTools/usr/share/man:/Library/Developer/CommandLineTools/Toolchains/XcodeDefault.xctoolchain/usr/share/man:/opt/homebrew/share/man::>
+Mon Apr 15 16:06:33 2024: envp[5]: <TERM_PROGRAM=Apple_Terminal>
+Mon Apr 15 16:06:33 2024: envp[6]: <SQ1020_TOKEN=sqa_*>
+Mon Apr 15 16:06:33 2024: envp[7]: <TERM=xterm-256color>
+Mon Apr 15 16:06:33 2024: envp[8]: <SHELL=/bin/zsh>
+Mon Apr 15 16:06:33 2024: envp[9]: <CURRENT_PATH=/Applications/Sonar/Workspaces/eclipse-workspace/HelloWorldCPP/Debug>
+Mon Apr 15 16:06:33 2024: envp[10]: <MAKEFLAGS=>
+Mon Apr 15 16:06:33 2024: envp[11]: <HOMEBREW_REPOSITORY=/opt/homebrew>
+Mon Apr 15 16:06:33 2024: envp[12]: <TMPDIR=/var/folders/zd/hndvk11s30jcj4_yy_6c1qq40000gq/T/>
+Mon Apr 15 16:06:33 2024: envp[13]: <SQ990_PATH=/Applications/Sonar/SonarQube-EE/sonarqube-9.9.3.79811/bin/macosx-universal-64>
+Mon Apr 15 16:06:33 2024: envp[14]: <SQ990_HOST_URL=http://localhost:9900>
+Mon Apr 15 16:06:33 2024: envp[15]: <TERM_PROGRAM_VERSION=453>
+Mon Apr 15 16:06:33 2024: envp[16]: <BRANCH_NAME=>
+Mon Apr 15 16:06:33 2024: envp[17]: <SQ1041_TOKEN=sqa_*>
+Mon Apr 15 16:06:33 2024: envp[18]: <CURRENT_CSPROJ=Debug.csproj>
+Mon Apr 15 16:06:33 2024: envp[19]: <TERM_SESSION_ID=B54EF922-63E9-4C88-A5F2-6269D9CADFE0>
+Mon Apr 15 16:06:33 2024: envp[20]: <ZSH=/Users/basharath.ali/.oh-my-zsh>
+Mon Apr 15 16:06:33 2024: envp[21]: <SQ1030_PATH=/Applications/Sonar/SonarQube-EE/sonarqube-10.3.0.82913/bin/macosx-universal-64>
+Mon Apr 15 16:06:33 2024: envp[22]: <USER=basharath.ali>
+Mon Apr 15 16:06:33 2024: envp[23]: <LS_COLORS=di=1;36:ln=35:so=32:pi=33:ex=31:bd=34;46:cd=34;43:su=30;41:sg=30;46:tw=30;42:ow=30;43>
+Mon Apr 15 16:06:33 2024: envp[24]: <SQ890_PATH=/Applications/Sonar/SonarQube-EE/sonarqube-8.9.10.61524/bin/macosx-universal-64>
+Mon Apr 15 16:06:33 2024: envp[25]: <SQ890_TOKEN=sqa_*>
+Mon Apr 15 16:06:33 2024: envp[26]: <SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.YVS9rhese7/Listeners>
+Mon Apr 15 16:06:33 2024: envp[27]: <__CF_USER_TEXT_ENCODING=0x1F7:0x0:0x64>
+Mon Apr 15 16:06:33 2024: envp[28]: <SONAR_SCANNER_DLL=/Users/basharath.ali/Documents/Dev_Workspace/Scanners/sonar-scanner-6.2.0.85879-net/SonarScanner.MSBuild.dll>
+Mon Apr 15 16:06:33 2024: envp[29]: <PROJECT_KEY=Debug>
+Mon Apr 15 16:06:33 2024: envp[30]: <MAKELEVEL=1>
+Mon Apr 15 16:06:33 2024: envp[31]: <PAGER=less>
+Mon Apr 15 16:06:33 2024: envp[32]: <SQ1041_HOST_URL=http://localhost:10401>
+Mon Apr 15 16:06:33 2024: envp[33]: <MFLAGS=>
+Mon Apr 15 16:06:33 2024: envp[34]: <LSCOLORS=Gxfxcxdxbxegedabagacad>
+Mon Apr 15 16:06:33 2024: envp[35]: <SONAR_SCANNER_PATH=/Users/basharath.ali/Documents/Dev_Workspace/Scanners/sonar-scanner-6.2.0.85879-net/sonar-scanner-5.0.1.3006/bin/sonar-scanner>
+Mon Apr 15 16:06:33 2024: envp[36]: <SQ1020_HOST_URL=http://localhost:10200>
+Mon Apr 15 16:06:33 2024: envp[37]: <SQ990_TOKEN=sqa_*>
+Mon Apr 15 16:06:33 2024: envp[38]: <PATH=/Users/basharath.ali/.jenv/shims:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Applications/CyberArk EPM.app/Contents/Helpers:/usr/local/share/dotnet:~/.dotnet/tools:/usr/local/sbin:/Users/basharath.ali/.dotnet/tools:/Applications/sonar/build-wrapper-macosx-x86/build-wrapper-macosx-x86:/Applications/Sonar/sonar-scanner-5.0.1.3006-macosx\ 2/bin:/Applications/Sonar/build-wrappers/10.4.1.build-wrapper-macosx-x86>
+Mon Apr 15 16:06:33 2024: envp[39]: <_=/usr/bin/g++>
+Mon Apr 15 16:06:33 2024: envp[40]: <__CFBundleIdentifier=com.apple.Terminal>
+Mon Apr 15 16:06:33 2024: envp[41]: <JENV_LOADED=1>
+Mon Apr 15 16:06:33 2024: envp[42]: <PWD=/Applications/Sonar/Workspaces/eclipse-workspace/HelloWorldCPP/Debug>
+Mon Apr 15 16:06:33 2024: envp[43]: <SQ1040_TOKEN=sqa_*>
+Mon Apr 15 16:06:33 2024: envp[44]: <SQ890_HOST_URL=http://localhost:8900>
+Mon Apr 15 16:06:33 2024: envp[45]: <XPC_FLAGS=0x0>
+Mon Apr 15 16:06:33 2024: envp[46]: <SQ990DC_PATH=/Applications/Sonar/SonarQube-DCE/sonarqube-9.9.4.87374/bin/macosx-universal-64>
+Mon Apr 15 16:06:33 2024: envp[47]: <XPC_SERVICE_NAME=0>
+Mon Apr 15 16:06:33 2024: envp[48]: <SQ990DC_HOST_URL=http://localhost:9901>
+Mon Apr 15 16:06:33 2024: envp[49]: <SHLVL=2>
+Mon Apr 15 16:06:33 2024: envp[50]: <HOME=/Users/basharath.ali>
+Mon Apr 15 16:06:33 2024: envp[51]: <HOMEBREW_PREFIX=/opt/homebrew>
+Mon Apr 15 16:06:33 2024: envp[52]: <SQ1040_HOST_URL=http://localhost:10400>
+Mon Apr 15 16:06:33 2024: envp[53]: <SQ990DC_TOKEN=sqa_*>
+Mon Apr 15 16:06:33 2024: envp[54]: <LOGNAME=basharath.ali>
+Mon Apr 15 16:06:33 2024: envp[55]: <LESS=-R>
+Mon Apr 15 16:06:33 2024: envp[56]: <SQ1030_TOKEN=sqa_*>
+Mon Apr 15 16:06:33 2024: envp[57]: <JENV_SHELL=zsh>
+Mon Apr 15 16:06:33 2024: envp[58]: <LC_CTYPE=UTF-8>
+Mon Apr 15 16:06:33 2024: envp[59]: <SQ1041_PATH=/Applications/Sonar/SonarQube-EE/sonarqube-10.4.1.88267/bin/macosx-universal-64>
+Mon Apr 15 16:06:33 2024: envp[60]: <SQ1020_PATH=/Applications/Sonar/SonarQube-EE/sonarqube-10.2.1.78527/bin/macosx-universal-64>
+Mon Apr 15 16:06:33 2024: envp[61]: <HOMEBREW_CELLAR=/opt/homebrew/Cellar>
+Mon Apr 15 16:06:33 2024: envp[62]: <INFOPATH=/opt/homebrew/share/info:>
+Mon Apr 15 16:06:33 2024: envp[63]: <SQ1040_PATH=/Applications/Sonar/SonarQube-EE/sonarqube-10.4.0.87286/bin/macosx-universal-64>
+Mon Apr 15 16:06:33 2024: envp[64]: <SDKROOT=/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk>
+Mon Apr 15 16:06:33 2024: envp[65]: <CPATH=/usr/local/include>
+Mon Apr 15 16:06:33 2024: envp[66]: <LIBRARY_PATH=/usr/local/lib>
+Mon Apr 15 16:06:33 2024: envp[67]: <DYLD_INSERT_LIBRARIES=>
+Mon Apr 15 16:06:33 2024: process created with pid: 55998
+Mon Apr 15 16:06:33 2024: parent pid: 55930
+Mon Apr 15 16:06:33 2024: working directory: </Applications/Sonar/Workspaces/eclipse-workspace/HelloWorldCPP/Debug>
+Mon Apr 15 16:06:33 2024: executable: </private/tmp/sonarsource-build-wrapper-cache-503/usr/bin/xcrun>
+Mon Apr 15 16:06:33 2024: argv[0]: </usr/bin/xcrun>
+Mon Apr 15 16:06:33 2024: argv[1]: <clang++>
+Mon Apr 15 16:06:33 2024: argv[2]: <-o>
+Mon Apr 15 16:06:33 2024: argv[3]: <HelloWorldCPP>
+Mon Apr 15 16:06:33 2024: argv[4]: <./src/HelloWorldCPP.o>
+Mon Apr 15 16:06:33 2024: skipping process with pid: 55998
+Mon Apr 15 16:06:33 2024: process created with pid: 55998
+Mon Apr 15 16:06:33 2024: parent pid: 55930
+Mon Apr 15 16:06:33 2024: working directory: </Applications/Sonar/Workspaces/eclipse-workspace/HelloWorldCPP/Debug>
+Mon Apr 15 16:06:33 2024: executable: </Library/Developer/CommandLineTools/usr/bin/clang>
+Mon Apr 15 16:06:33 2024: argv[0]: </Library/Developer/CommandLineTools/usr/bin/clang++>
+Mon Apr 15 16:06:33 2024: argv[1]: <-o>
+Mon Apr 15 16:06:33 2024: argv[2]: <HelloWorldCPP>
+Mon Apr 15 16:06:33 2024: argv[3]: <./src/HelloWorldCPP.o>
+Mon Apr 15 16:06:33 2024: envp[0]: <SQ_WRAPPER_SOCKET=/tmp/build-wrapper-socket.20GLwx>
+Mon Apr 15 16:06:33 2024: envp[1]: <SQ_WRAPPER_LIBRARY=/Applications/Sonar/build-wrappers/10.4.1.build-wrapper-macosx-x86/libinterceptor.dylib>
+Mon Apr 15 16:06:33 2024: envp[2]: <SQ_BUILD_WRAPPER_BIN=/Applications/Sonar/build-wrappers/10.4.1.build-wrapper-macosx-x86/build-wrapper-macosx-x86>
+Mon Apr 15 16:06:33 2024: envp[3]: <SQ1030_HOST_URL=http://localhost:10200>
+Mon Apr 15 16:06:33 2024: envp[4]: <MANPATH=/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/share/man:/Library/Developer/CommandLineTools/usr/share/man:/Library/Developer/CommandLineTools/Toolchains/XcodeDefault.xctoolchain/usr/share/man:/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/share/man:/Library/Developer/CommandLineTools/usr/share/man:/Library/Developer/CommandLineTools/Toolchains/XcodeDefault.xctoolchain/usr/share/man:/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/share/man:/Library/Developer/CommandLineTools/usr/share/man:/Library/Developer/CommandLineTools/Toolchains/XcodeDefault.xctoolchain/usr/share/man:/opt/homebrew/share/man::>
+Mon Apr 15 16:06:33 2024: envp[5]: <TERM_PROGRAM=Apple_Terminal>
+Mon Apr 15 16:06:33 2024: envp[6]: <SQ1020_TOKEN=sqa_*>
+Mon Apr 15 16:06:33 2024: envp[7]: <TERM=xterm-256color>
+Mon Apr 15 16:06:33 2024: envp[8]: <SHELL=/bin/zsh>
+Mon Apr 15 16:06:33 2024: envp[9]: <CURRENT_PATH=/Applications/Sonar/Workspaces/eclipse-workspace/HelloWorldCPP/Debug>
+Mon Apr 15 16:06:33 2024: envp[10]: <MAKEFLAGS=>
+Mon Apr 15 16:06:33 2024: envp[11]: <HOMEBREW_REPOSITORY=/opt/homebrew>
+Mon Apr 15 16:06:33 2024: envp[12]: <TMPDIR=/var/folders/zd/hndvk11s30jcj4_yy_6c1qq40000gq/T/>
+Mon Apr 15 16:06:33 2024: envp[13]: <SQ990_PATH=/Applications/Sonar/SonarQube-EE/sonarqube-9.9.3.79811/bin/macosx-universal-64>
+Mon Apr 15 16:06:33 2024: envp[14]: <SQ990_HOST_URL=http://localhost:9900>
+Mon Apr 15 16:06:33 2024: envp[15]: <TERM_PROGRAM_VERSION=453>
+Mon Apr 15 16:06:33 2024: envp[16]: <BRANCH_NAME=>
+Mon Apr 15 16:06:33 2024: envp[17]: <SQ1041_TOKEN=sqa_*>
+Mon Apr 15 16:06:33 2024: envp[18]: <CURRENT_CSPROJ=Debug.csproj>
+Mon Apr 15 16:06:33 2024: envp[19]: <TERM_SESSION_ID=B54EF922-63E9-4C88-A5F2-6269D9CADFE0>
+Mon Apr 15 16:06:33 2024: envp[20]: <ZSH=/Users/basharath.ali/.oh-my-zsh>
+Mon Apr 15 16:06:33 2024: envp[21]: <SQ1030_PATH=/Applications/Sonar/SonarQube-EE/sonarqube-10.3.0.82913/bin/macosx-universal-64>
+Mon Apr 15 16:06:33 2024: envp[22]: <USER=basharath.ali>
+Mon Apr 15 16:06:33 2024: envp[23]: <LS_COLORS=di=1;36:ln=35:so=32:pi=33:ex=31:bd=34;46:cd=34;43:su=30;41:sg=30;46:tw=30;42:ow=30;43>
+Mon Apr 15 16:06:33 2024: envp[24]: <SQ890_PATH=/Applications/Sonar/SonarQube-EE/sonarqube-8.9.10.61524/bin/macosx-universal-64>
+Mon Apr 15 16:06:33 2024: envp[25]: <SQ890_TOKEN=sqa_*>
+Mon Apr 15 16:06:33 2024: envp[26]: <SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.YVS9rhese7/Listeners>
+Mon Apr 15 16:06:33 2024: envp[27]: <__CF_USER_TEXT_ENCODING=0x1F7:0x0:0x64>
+Mon Apr 15 16:06:33 2024: envp[28]: <SONAR_SCANNER_DLL=/Users/basharath.ali/Documents/Dev_Workspace/Scanners/sonar-scanner-6.2.0.85879-net/SonarScanner.MSBuild.dll>
+Mon Apr 15 16:06:33 2024: envp[29]: <PROJECT_KEY=Debug>
+Mon Apr 15 16:06:33 2024: envp[30]: <MAKELEVEL=1>
+Mon Apr 15 16:06:33 2024: envp[31]: <PAGER=less>
+Mon Apr 15 16:06:33 2024: envp[32]: <SQ1041_HOST_URL=http://localhost:10401>
+Mon Apr 15 16:06:33 2024: envp[33]: <MFLAGS=>
+Mon Apr 15 16:06:33 2024: envp[34]: <LSCOLORS=Gxfxcxdxbxegedabagacad>
+Mon Apr 15 16:06:33 2024: envp[35]: <SONAR_SCANNER_PATH=/Users/basharath.ali/Documents/Dev_Workspace/Scanners/sonar-scanner-6.2.0.85879-net/sonar-scanner-5.0.1.3006/bin/sonar-scanner>
+Mon Apr 15 16:06:33 2024: envp[36]: <SQ1020_HOST_URL=http://localhost:10200>
+Mon Apr 15 16:06:33 2024: envp[37]: <SQ990_TOKEN=sqa_*>
+Mon Apr 15 16:06:33 2024: envp[38]: <PATH=/Users/basharath.ali/.jenv/shims:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Applications/CyberArk EPM.app/Contents/Helpers:/usr/local/share/dotnet:~/.dotnet/tools:/usr/local/sbin:/Users/basharath.ali/.dotnet/tools:/Applications/sonar/build-wrapper-macosx-x86/build-wrapper-macosx-x86:/Applications/Sonar/sonar-scanner-5.0.1.3006-macosx\ 2/bin:/Applications/Sonar/build-wrappers/10.4.1.build-wrapper-macosx-x86>
+Mon Apr 15 16:06:33 2024: envp[39]: <_=/usr/bin/g++>
+Mon Apr 15 16:06:33 2024: envp[40]: <__CFBundleIdentifier=com.apple.Terminal>
+Mon Apr 15 16:06:33 2024: envp[41]: <JENV_LOADED=1>
+Mon Apr 15 16:06:33 2024: envp[42]: <PWD=/Applications/Sonar/Workspaces/eclipse-workspace/HelloWorldCPP/Debug>
+Mon Apr 15 16:06:33 2024: envp[43]: <SQ1040_TOKEN=sqa_*>
+Mon Apr 15 16:06:33 2024: envp[44]: <SQ890_HOST_URL=http://localhost:8900>
+Mon Apr 15 16:06:33 2024: envp[45]: <XPC_FLAGS=0x0>
+Mon Apr 15 16:06:33 2024: envp[46]: <SQ990DC_PATH=/Applications/Sonar/SonarQube-DCE/sonarqube-9.9.4.87374/bin/macosx-universal-64>
+Mon Apr 15 16:06:33 2024: envp[47]: <XPC_SERVICE_NAME=0>
+Mon Apr 15 16:06:33 2024: envp[48]: <SQ990DC_HOST_URL=http://localhost:9901>
+Mon Apr 15 16:06:33 2024: envp[49]: <SHLVL=2>
+Mon Apr 15 16:06:33 2024: envp[50]: <HOME=/Users/basharath.ali>
+Mon Apr 15 16:06:33 2024: envp[51]: <HOMEBREW_PREFIX=/opt/homebrew>
+Mon Apr 15 16:06:33 2024: envp[52]: <SQ1040_HOST_URL=http://localhost:10400>
+Mon Apr 15 16:06:33 2024: envp[53]: <SQ990DC_TOKEN=sqa_*>
+Mon Apr 15 16:06:33 2024: envp[54]: <LOGNAME=basharath.ali>
+Mon Apr 15 16:06:33 2024: envp[55]: <LESS=-R>
+Mon Apr 15 16:06:33 2024: envp[56]: <SQ1030_TOKEN=sqa_*>
+Mon Apr 15 16:06:33 2024: envp[57]: <JENV_SHELL=zsh>
+Mon Apr 15 16:06:33 2024: envp[58]: <LC_CTYPE=UTF-8>
+Mon Apr 15 16:06:33 2024: envp[59]: <SQ1041_PATH=/Applications/Sonar/SonarQube-EE/sonarqube-10.4.1.88267/bin/macosx-universal-64>
+Mon Apr 15 16:06:33 2024: envp[60]: <SQ1020_PATH=/Applications/Sonar/SonarQube-EE/sonarqube-10.2.1.78527/bin/macosx-universal-64>
+Mon Apr 15 16:06:33 2024: envp[61]: <HOMEBREW_CELLAR=/opt/homebrew/Cellar>
+Mon Apr 15 16:06:33 2024: envp[62]: <INFOPATH=/opt/homebrew/share/info:>
+Mon Apr 15 16:06:33 2024: envp[63]: <SQ1040_PATH=/Applications/Sonar/SonarQube-EE/sonarqube-10.4.0.87286/bin/macosx-universal-64>
+Mon Apr 15 16:06:33 2024: envp[64]: <SDKROOT=/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk>
+Mon Apr 15 16:06:33 2024: envp[65]: <CPATH=/usr/local/include>
+Mon Apr 15 16:06:33 2024: envp[66]: <LIBRARY_PATH=/usr/local/lib>
+Mon Apr 15 16:06:33 2024: envp[67]: <DYLD_INSERT_LIBRARIES=>
+Mon Apr 15 16:06:37 2024: process created with pid: 55999
+Mon Apr 15 16:06:37 2024: parent pid: 55998
+Mon Apr 15 16:06:37 2024: working directory: </Applications/Sonar/Workspaces/eclipse-workspace/HelloWorldCPP/Debug>
+Mon Apr 15 16:06:37 2024: executable: </Library/Developer/CommandLineTools/usr/bin/ld>
+Mon Apr 15 16:06:37 2024: argv[0]: </Library/Developer/CommandLineTools/usr/bin/ld>
+Mon Apr 15 16:06:37 2024: argv[1]: <-demangle>
+Mon Apr 15 16:06:37 2024: argv[2]: <-lto_library>
+Mon Apr 15 16:06:37 2024: argv[3]: </Library/Developer/CommandLineTools/usr/lib/libLTO.dylib>
+Mon Apr 15 16:06:37 2024: argv[4]: <-dynamic>
+Mon Apr 15 16:06:37 2024: argv[5]: <-arch>
+Mon Apr 15 16:06:37 2024: argv[6]: <x86_64>
+Mon Apr 15 16:06:37 2024: argv[7]: <-platform_version>
+Mon Apr 15 16:06:37 2024: argv[8]: <macos>
+Mon Apr 15 16:06:37 2024: argv[9]: <14.0.0>
+Mon Apr 15 16:06:37 2024: argv[10]: <14.4>
+Mon Apr 15 16:06:37 2024: argv[11]: <-syslibroot>
+Mon Apr 15 16:06:37 2024: argv[12]: </Library/Developer/CommandLineTools/SDKs/MacOSX.sdk>
+Mon Apr 15 16:06:37 2024: argv[13]: <-o>
+Mon Apr 15 16:06:37 2024: argv[14]: <HelloWorldCPP>
+Mon Apr 15 16:06:37 2024: argv[15]: <-L/usr/local/lib>
+Mon Apr 15 16:06:37 2024: argv[16]: <./src/HelloWorldCPP.o>
+Mon Apr 15 16:06:37 2024: argv[17]: <-lc++>
+Mon Apr 15 16:06:37 2024: argv[18]: <-lSystem>
+Mon Apr 15 16:06:37 2024: argv[19]: </Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a>
+Mon Apr 15 16:06:37 2024: skipping process with pid: 55999
+Mon Apr 15 16:06:37 2024: process created with pid: 56019
+Mon Apr 15 16:06:37 2024: parent pid: 55930
+Mon Apr 15 16:06:37 2024: working directory: </Applications/Sonar/Workspaces/eclipse-workspace/HelloWorldCPP/Debug>
+Mon Apr 15 16:06:37 2024: executable: </private/tmp/sonarsource-build-wrapper-cache-503/bin/echo>
+Mon Apr 15 16:06:37 2024: argv[0]: <echo>
+Mon Apr 15 16:06:37 2024: argv[1]: <Finished building target: HelloWorldCPP>
+Mon Apr 15 16:06:37 2024: skipping process with pid: 56019
+Mon Apr 15 16:06:37 2024: process created with pid: 56020
+Mon Apr 15 16:06:37 2024: parent pid: 55930
+Mon Apr 15 16:06:37 2024: working directory: </Applications/Sonar/Workspaces/eclipse-workspace/HelloWorldCPP/Debug>
+Mon Apr 15 16:06:37 2024: executable: </private/tmp/sonarsource-build-wrapper-cache-503/bin/echo>
+Mon Apr 15 16:06:37 2024: argv[0]: <echo>
+Mon Apr 15 16:06:37 2024: argv[1]: < >
+Mon Apr 15 16:06:37 2024: skipping process with pid: 56020
+Mon Apr 15 16:06:37 2024: finalizing json file
+Mon Apr 15 16:06:37 2024: returned with code: 0
